@@ -1,1 +1,1934 @@
-local a=Instance.new("ScreenGui")local b=Instance.new("Frame")local c=Instance.new("TextLabel")local d=Instance.new("TextLabel")local e=Instance.new("TextLabel")local f=Instance.new("TextButton")local g=Instance.new("TextButton")local h=Instance.new("TextButton")local i=Instance.new("Frame")local j=Instance.new("TextButton")local k=Instance.new("TextButton")local l=Instance.new("TextButton")local m=Instance.new("TextButton")local n=Instance.new("Frame")local o=Instance.new("TextLabel")local p=Instance.new("Frame")local q=Instance.new("TextLabel")local r=Instance.new("TextBox")local s=Instance.new("TextBox")local t=Instance.new("TextButton")a.Name="blessbuddha"a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Name="blessbuddhafra"b.Parent=a;b.BackgroundColor3=Color3.fromRGB(31,31,31)b.BorderSizePixel=0;b.Position=UDim2.new(0.0779896006,0,0.392079204,0)b.Size=UDim2.new(0,330,0,219)c.Name="orghead"c.Parent=b;c.BackgroundColor3=Color3.fromRGB(255,190,24)c.BorderSizePixel=0;c.Size=UDim2.new(0,330,0,13)c.Font=Enum.Font.SourceSans;c.Text=""c.TextColor3=Color3.fromRGB(0,0,0)c.TextSize=14.000;d.Name="title"d.Parent=c;d.BackgroundColor3=Color3.fromRGB(255,255,255)d.BackgroundTransparency=1.000;d.BorderSizePixel=0;d.Size=UDim2.new(0,84,0,13)d.Font=Enum.Font.SourceSans;d.Text="BlessBuddha v1"d.TextColor3=Color3.fromRGB(0,0,0)d.TextSize=14.000;d.TextWrapped=true;d.TextXAlignment=Enum.TextXAlignment.Left;e.Name="barbg"e.Parent=b;e.BackgroundColor3=Color3.fromRGB(59,59,59)e.BorderSizePixel=0;e.Position=UDim2.new(0,0,0.0593607314,0)e.Size=UDim2.new(0,78,0,206)e.Font=Enum.Font.SourceSans;e.Text=""e.TextColor3=Color3.fromRGB(0,0,0)e.TextSize=14.000;f.Name="mai"f.Parent=b;f.BackgroundColor3=Color3.fromRGB(0,0,0)f.BackgroundTransparency=0.500;f.BorderSizePixel=0;f.Position=UDim2.new(0,0,0.0958904102,0)f.Size=UDim2.new(0,78,0,14)f.Font=Enum.Font.SourceSans;f.Text="MainShi"f.TextColor3=Color3.fromRGB(255,255,255)f.TextSize=25.000;f.TextXAlignment=Enum.TextXAlignment.Left;g.Name="lol"g.Parent=b;g.BackgroundColor3=Color3.fromRGB(0,0,0)g.BackgroundTransparency=0.500;g.BorderSizePixel=0;g.Position=UDim2.new(0,0,0.214611888,0)g.Size=UDim2.new(0,78,0,14)g.Font=Enum.Font.SourceSans;g.Text="Standalones"g.TextColor3=Color3.fromRGB(255,255,255)g.TextSize=16.000;g.TextXAlignment=Enum.TextXAlignment.Left;h.Name="dsadas"h.Parent=b;h.BackgroundColor3=Color3.fromRGB(0,0,0)h.BackgroundTransparency=0.500;h.BorderSizePixel=0;h.Position=UDim2.new(0,0,0.324200928,0)h.Size=UDim2.new(0,78,0,14)h.Font=Enum.Font.SourceSans;h.Text="ok"h.TextColor3=Color3.fromRGB(255,255,255)h.TextSize=100.000;h.TextXAlignment=Enum.TextXAlignment.Left;i.Name="mainshi"i.Parent=b;i.BackgroundColor3=Color3.fromRGB(31,31,31)i.BorderSizePixel=0;i.Position=UDim2.new(0.236363634,0,0.0593607314,0)i.Size=UDim2.new(0,252,0,206)j.Name="waappbut"j.Parent=i;j.BackgroundColor3=Color3.fromRGB(255,196,19)j.BorderSizePixel=0;j.Position=UDim2.new(0.0515873022,0,0.0388349518,0)j.Size=UDim2.new(0,118,0,16)j.Font=Enum.Font.SourceSans;j.Text="waapp"j.TextColor3=Color3.fromRGB(227,227,227)j.TextSize=33.000;j.TextXAlignment=Enum.TextXAlignment.Left;k.Name="infyieldbut"k.Parent=i;k.BackgroundColor3=Color3.fromRGB(255,196,19)k.BorderSizePixel=0;k.Position=UDim2.new(0.0515873022,0,0.233009696,0)k.Size=UDim2.new(0,118,0,16)k.Font=Enum.Font.SourceSans;k.Text="infyield"k.TextColor3=Color3.fromRGB(227,227,227)k.TextSize=30.000;k.TextXAlignment=Enum.TextXAlignment.Left;l.Name="fatesadmin"l.Parent=i;l.BackgroundColor3=Color3.fromRGB(255,196,19)l.BorderSizePixel=0;l.Position=UDim2.new(0.0515873022,0,0.398058236,0)l.Size=UDim2.new(0,118,0,16)l.Font=Enum.Font.SourceSans;l.Text="fate"l.TextColor3=Color3.fromRGB(227,227,227)l.TextSize=30.000;l.TextXAlignment=Enum.TextXAlignment.Left;m.Name="vr"m.Parent=i;m.BackgroundColor3=Color3.fromRGB(255,196,19)m.BorderSizePixel=0;m.Position=UDim2.new(0.0515873022,0,0.543689311,0)m.Size=UDim2.new(0,118,0,16)m.Font=Enum.Font.SourceSans;m.Text="vrvrvrvrvrvrvr"m.TextColor3=Color3.fromRGB(227,227,227)m.TextSize=30.000;m.TextXAlignment=Enum.TextXAlignment.Left;n.Name="standalone"n.Parent=b;n.BackgroundColor3=Color3.fromRGB(31,31,31)n.BorderSizePixel=0;n.Position=UDim2.new(0.23463203,0,0.0556146652,0)n.Size=UDim2.new(0,252,0,206)n.Visible=false;o.Name="status"o.Parent=n;o.BackgroundColor3=Color3.fromRGB(255,255,255)o.BackgroundTransparency=1.000;o.BorderSizePixel=0;o.Position=UDim2.new(0.103174604,0,0.233009711,0)o.Size=UDim2.new(0,200,0,50)o.Font=Enum.Font.SourceSans;o.Text="more coming soon lmaow"o.TextColor3=Color3.fromRGB(255,255,255)o.TextScaled=true;o.TextSize=14.000;o.TextWrapped=true;p.Name="login"p.Parent=b;p.BackgroundColor3=Color3.fromRGB(31,31,31)p.BorderSizePixel=0;p.Position=UDim2.new(0.23463203,0,0.0556146652,0)p.Size=UDim2.new(0,252,0,206)q.Name="titee"q.Parent=p;q.BackgroundColor3=Color3.fromRGB(255,255,255)q.BackgroundTransparency=1.000;q.BorderColor3=Color3.fromRGB(27,42,53)q.BorderSizePixel=0;q.Position=UDim2.new(0.190476194,0,0.0485436879,0)q.Size=UDim2.new(0,156,0,24)q.Font=Enum.Font.SourceSans;q.Text="loginnigga."q.TextColor3=Color3.fromRGB(255,255,255)q.TextScaled=true;q.TextSize=14.000;q.TextWrapped=true;r.Name="usertext"r.Parent=p;r.BackgroundColor3=Color3.fromRGB(255,255,255)r.Position=UDim2.new(0.289682537,0,0.281553388,0)r.Size=UDim2.new(0,105,0,16)r.Font=Enum.Font.SourceSans;r.Text="Username"r.TextColor3=Color3.fromRGB(0,0,0)r.TextSize=19.000;r.TextXAlignment=Enum.TextXAlignment.Left;s.Name="passtext"s.Parent=p;s.BackgroundColor3=Color3.fromRGB(255,255,255)s.Position=UDim2.new(0.293650806,0,0.432038844,0)s.Size=UDim2.new(0,105,0,16)s.Font=Enum.Font.SourceSans;s.Text="Password"s.TextColor3=Color3.fromRGB(0,0,0)s.TextSize=19.000;s.TextXAlignment=Enum.TextXAlignment.Left;t.Name="loginbut"t.Parent=p;t.BackgroundColor3=Color3.fromRGB(255,190,24)t.Position=UDim2.new(0.384920627,0,0.54368937,0)t.Size=UDim2.new(0,58,0,17)t.Font=Enum.Font.Roboto;t.Text="Login"t.TextColor3=Color3.fromRGB(255,255,255)t.TextScaled=true;t.TextSize=14.000;t.TextWrapped=true;local function u()local v=Instance.new('LocalScript',f)v.Parent.MouseButton1Click:Connect(function()v.Parent.Parent.mainshi.Visible=true end)end;coroutine.wrap(u)()local function w()local v=Instance.new('LocalScript',g)v.Parent.MouseButton1Click:Connect(function()v.Parent.Parent.mainshi.Visible=false;v.Parent.Parent.standalone.Visible=true end)end;coroutine.wrap(w)()local function x()local v=Instance.new('LocalScript',j)v.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()end)end;coroutine.wrap(x)()local function y()local v=Instance.new('LocalScript',k)v.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()end)end;coroutine.wrap(y)()local function z()local v=Instance.new('LocalScript',l)v.Parent.MouseButton1Click:Connect(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()end)end;coroutine.wrap(z)()local function A()local v=Instance.new('LocalScript',m)v.Parent.MouseButton1Click:Connect(function()local B=0;local C={-17.7,0,-17.7}local D={-17.7,0,-17.7}local E=game.Players.LocalPlayer;local F=E.Character;local function G(H,I,J,K,L,M)local N=Instance.new("Attachment",H)N.Position=I;N.Orientation=J;N.Axis=K;N.SecondaryAxis=L;N.Name=M end;local E=game:GetService("Players").LocalPlayer;local F=E.Character;local O=F.HumanoidRootPart;for P,Q in pairs(F:GetChildren())do if Q:IsA("LocalScript")then Q:Destroy()end end;local R=workspace.CurrentCamera;local S=Instance.new("Folder",F)S.Name="FakeCharacter"local T=Instance.new("Model",S)T.Name="Reanimation"local U=game:GetService("UserInputService")local V,W,X,Y,Z=false;local _=Instance.new("Part",T)_.Size=Vector3.new(2,1,1)_.Name="Head"local a0=Instance.new("Part",T)a0.Size=Vector3.new(2,2,1)a0.Name="Torso"local a1=Instance.new("Part",T)a1.Size=Vector3.new(1,2,1)a1.Name="Left Arm"local a2=Instance.new("Part",T)a2.Size=Vector3.new(1,2,1)a2.Name="Right Arm"local a3=Instance.new("Part",T)a3.Size=Vector3.new(1,2,1)a3.Name="Left Leg"local a4=Instance.new("Part",T)a4.Size=Vector3.new(1,2,1)a4.Name="Right Leg"local a5=Instance.new("Part",T)a5.Size=Vector3.new(2,2,1)a5.Name="HumanoidRootPart"a5.Transparency=1;a5.CanCollide=false;for P,Q in pairs(T:GetChildren())do if Q:IsA("Part")and Q.Name~="HumanoidRootPart"then Q.Transparency=1 end end;local a6=Instance.new("Motor6D",a0)a6.Part0=a0;a6.Part1=a2;a6.Name="Right Shoulder"a6.C0=CFrame.new(1,0.5,0,0,0,1,0,1,-0,-1,0,0)a6.C1=CFrame.new(-0.5,0.5,0,0,0,1,0,1,-0,-1,0,0)local a7=Instance.new("Motor6D",a0)a7.Part0=a0;a7.Part1=a1;a7.Name="Left Shoulder"a7.C0=CFrame.new(-1,0.5,0,0,0,-1,0,1,0,1,0,0)a7.C1=CFrame.new(0.5,0.5,0,0,0,-1,0,1,0,1,0,0)local a8=Instance.new("Motor6D",a0)a8.Part0=a0;a8.Part1=a4;a8.Name="Right Hip"a8.C0=CFrame.new(1,-1,0,0,0,1,0,1,-0,-1,0,0)a8.C1=CFrame.new(0.5,1,0,0,0,1,0,1,-0,-1,0,0)local a9=Instance.new("Motor6D",a0)a9.Part0=a0;a9.Part1=a3;a9.Name="Left Hip"a9.C0=CFrame.new(-1,-1,0,0,0,-1,0,1,0,1,0,0)a9.C1=CFrame.new(-0.5,1,0,0,0,-1,0,1,0,1,0,0)local aa=Instance.new("Motor6D",a0)aa.Part0=a0;aa.Part1=_;aa.Name="Neck"aa.C0=CFrame.new(0,1,0,-1,0,0,0,0,1,0,1,-0)aa.C1=CFrame.new(0,-0.5,0,-1,0,0,0,0,1,0,1,-0)local ab=Instance.new("Motor6D",a5)ab.Part0=a5;ab.Part1=a0;ab.Name="RootJoint"ab.C0=CFrame.new(0,0,0,-1,0,0,0,0,1,0,1,-0)ab.C1=CFrame.new(0,0,0,-1,0,0,0,0,1,0,1,-0)local ac=Instance.new("Humanoid",T)ac.DisplayDistanceType="None"local ad=Instance.new("SpecialMesh",_)ad.Scale=Vector3.new(1.25,1.25,1.25)local ae=T;G(_,Vector3.new(0,0.60000002384186,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"HairAttachment")G(_,Vector3.new(0,0.60000002384186,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"HatAttachment")G(_,Vector3.new(0,0,-0.60000002384186),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"FaceFrontAttachment")G(_,Vector3.new(0,0,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"FaceCenterAttachment")G(a0,Vector3.new(0,1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"NeckAttachment")G(a0,Vector3.new(0,0,-0.5),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"BodyFrontAttachment")G(a0,Vector3.new(0,0,0.5),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"BodyBackAttachment")G(a0,Vector3.new(-1,1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"LeftCollarAttachment")G(a0,Vector3.new(1,1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"RightCollarAttachment")G(a0,Vector3.new(0,-1,-0.5),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"WaistFrontAttachment")G(a0,Vector3.new(0,-1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"WaistCenterAttachment")G(a0,Vector3.new(0,-1,0.5),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"WaistBackAttachment")G(a1,Vector3.new(0,1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"LeftShoulderAttachment")G(a1,Vector3.new(0,-1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"LeftGripAttachment")G(a2,Vector3.new(0,1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"RightShoulderAttachment")G(a2,Vector3.new(0,-1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"RightGripAttachment")G(a3,Vector3.new(0,-1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"LeftFootAttachment")G(a4,Vector3.new(0,-1,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"RightFootAttachment")G(a5,Vector3.new(0,0,0),Vector3.new(-0,0,0),Vector3.new(1,0,0),Vector3.new(0,1,0),"RootAttachment")for P,Q in pairs(F:GetChildren())do if Q:IsA("Accessory")then local af=Q:Clone()local ag=Q.Handle:FindFirstChildWhichIsA("Weld")local ah=ag.Part1;local ai=Instance.new("Weld",af.Handle)local aj=Q.Handle.AccessoryWeld.C0;local ak=Q.Handle.AccessoryWeld.C1;af.Handle:FindFirstChild("AccessoryWeld"):Destroy()af.Parent=ae;ai.Name="AccessoryWeld"ai.C0=aj;ai.C1=ak;ai.Part0=af.Handle;ai.Part1=F:FindFirstChild(ah.Name)af.Handle.Transparency=1 end end;a5.CFrame=O.CFrame;local al=0;local am=.5;local an=false;local ao=false;local ap=false;local aq=true;local ar=75;local as=true;local at=30;local au=true;local av=true;local aw=false;local ax=true;local ay=true;local az=true;local aA={LeftArm="",RightArm="",LeftLeg="",RightLeg="",Torso="",Head=true,BlockArms=true,BlockLegs=true,BlockTorso=true,LimbOffset=CFrame.Angles(math.rad(90),0,0)}local aB={RightOffset=Vector3.new(.5,0,0),LeftOffset=Vector3.new(-.5,0,0)}local aC=nil;aC=function()local aD=game:GetService("Players")local aE=aD.LocalPlayer;local aF=aE.Character or aE.CharacterAdded:Wait()local aG=aF:WaitForChild("HumanoidRootPart")local aH=aF:FindFirstChild("RightHand")or aF:FindFirstChild("Right Arm")or aG;local aI=aE:WaitForChild("Backpack")local aJ=aE:GetMouse()local aK=workspace.CurrentCamera;local aL=game:GetService("VRService")local aM=aL.VREnabled;local aN=game:GetService("UserInputService")local aO=game:GetService("RunService")local aP=game:GetService("HttpService")local aQ=game:GetService("StarterGui")local aR={}local aS={}local aT=false;local aU=false;local aV=false;local aW=game:GetObjects("rbxassetid://4468539481")[1]local aX=game:GetObjects("rbxassetid://4464983829")[1]local aY=Instance.new("Part")aY.Anchored=true;aY.Transparency=1;aY.CanCollide=false;aY.Parent=workspace;aQ:SetCore("VRLaserPointerMode",3)local aZ=aG.CFrame;if not au then aF.Humanoid.AnimationPlayed:Connect(function(a_)a_:Stop()end)for b0,b1 in next,aF.Humanoid:GetPlayingAnimationTracks()do b1:Stop()end;if ao then local b2=Instance.new("Part")b2.Anchored=true;b2.Size=Vector3.new(100,5,100)b2.CFrame=CFrame.new(0,10000,0)b2.Transparency=1;b2.Parent=workspace;aF:MoveTo(b2.Position+Vector3.new(0,5,0))wait(.5)end;if an then for b0,b3 in pairs(aF:GetChildren())do if b3:IsA("BasePart")then b3.Anchored=true end end end end;function Tween(b4,b5,b6,b7,b8)local b9=TweenInfo.new(b7,Enum.EasingStyle[b5],Enum.EasingDirection[b6])local ba=game:GetService("TweenService"):Create(b4,b9,b8)ba.Completed:Connect(function()ba:Destroy()end)ba:Play()return ba end;local function bb(bc)for b0,bd in next,aF:GetDescendants()do if bd:IsA("Motor6D")and bd.Part1==bc then return bd end end end;local function be(bc,bf)local bg=Instance.new("Attachment",bf or aY)local bh=Instance.new("Attachment",bc)local bi=Instance.new("AlignOrientation")local bj=Instance.new("AlignPosition")bi.Attachment0=bh;bi.Attachment1=bg;bi.RigidityEnabled=false;bi.MaxTorque=20000;bi.Responsiveness=40;bi.Parent=ae["HumanoidRootPart"]bi.Name=bc.Name.."'s AlignRot"bi.MaxAngularVelocity=100;bj.Attachment0=bh;bj.Attachment1=bg;bj.RigidityEnabled=false;bj.MaxForce=40000;bj.Responsiveness=40;bj.Parent=ae["HumanoidRootPart"]bj.Name=bc.Name.."'s AlignPos"bj.MaxVelocity=100;bc.Massless=false;local bd=bb(bc)if bd then bd:Destroy()end;return function(bk,bl)if bl then bg.CFrame=bk else bg.WorldCFrame=bk end end end;local function bm()for b0,bn in next,aF:GetChildren()do if bn:IsA("Tool")and not bn.Name:match("LIMB_TOOL")then return bn end end end;local function bo(bp)for b0,bq in next,aF:GetDescendants()do if bq:IsA("Weld")and(bq.Part0==bp or bq.Part1==bp)then return bq end end;wait(.2)for b0,bq in next,aF:GetDescendants()do if bq:IsA("Weld")and(bq.Part0==bp or bq.Part1==bp)then return bq end end end;local function br(bp)local bs=Instance.new("Weld")bs.Name="RightGrip"bs.Part1=bp;bs.Part0=aG;bs.Parent=aG;return bs end;local function bt(bu,bv)if not bu then return end;local bw=bu.Handle:FindFirstChildWhichIsA("Attachment")local bx=aW:FindFirstChild(bw.Name,true)local by=bx.Parent;local bz=bw.CFrame;local bA=bx.CFrame;if bv then if bu.Handle:FindFirstChild("Mesh")then bu.Handle.Mesh:Destroy()end end;wait()local bp=bu:WaitForChild("Handle")if bp:FindFirstChildWhichIsA("Weld",true)then bp:FindFirstChildWhichIsA("Weld",true):Destroy()bp:BreakJoints()else bp:BreakJoints()end;bp.Massless=true;bp.Transparency=0.5;aS[bu]=true;local bs=br(bp)wait()for b0,b4 in pairs(bp:GetDescendants())do if not b4:IsA("BasePart")then pcall(function()b4.Transparency=1 end)pcall(function()b4.Enabled=false end)end end;return bp,bs,bz,bA,by end;local function bB()for b0,bu in next,aF:GetChildren()do if bu:IsA("Accessory")and not aS[bu]then local bp,bs,bz,bA,by=bt(bu)table.insert(aR,{bp,bs,bz,bA,by})do bp.Transparency=1 end;if not ay then break end end end end;if not au then LeftHandle,LeftHandGrip=bt(aF:FindFirstChild(aA.LeftArm),aA.BlockArms)RightHandle,RightHandGrip=bt(aF:FindFirstChild(aA.RightArm),aA.BlockArms)LeftHipHandle,LeftLegGrip=bt(aF:FindFirstChild(aA.LeftLeg),aA.BlockLegs)RightHipHandle,RightLegGrip=bt(aF:FindFirstChild(aA.RightLeg),aA.BlockLegs)TorsoHandle,TorsoGrip=bt(aF:FindFirstChild(aA.Torso),aA.BlockTorso)bB()elseif au then if av then Permadeath()MoveHead=be(ae["Head"])end;MoveRightArm=be(ae["Right Arm"])MoveLeftArm=be(ae["Left Arm"])MoveRightLeg=be(ae["Right Leg"])MoveLeftLeg=be(ae["Left Leg"])MoveTorso=be(ae["Torso"])MoveRoot=be(ae["HumanoidRootPart"])if av then for b0,bu in next,ae:GetChildren()do if bu:IsA("Accessory")and bu:FindFirstChild("Handle")then local bh=bu.Handle:FindFirstChildWhichIsA("Attachment")local bg=ae:FindFirstChild(tostring(bh),true)local bi=Instance.new("AlignOrientation")local bj=Instance.new("AlignPosition")print(bh,bg,bu)bi.Attachment0=bh;bi.Attachment1=bg;bi.RigidityEnabled=false;bi.ReactionTorqueEnabled=true;bi.MaxTorque=20000;bi.Responsiveness=40;bi.Parent=ae["Head"]bj.Attachment0=bh;bj.Attachment1=bg;bj.RigidityEnabled=false;bj.ReactionForceEnabled=true;bj.MaxForce=40000;bj.Responsiveness=40;bj.Parent=ae["Head"]end end end end;aW.Name="VirtualRig"aW.RightFoot.BodyPosition.Position=aZ.p;aW.LeftFoot.BodyPosition.Position=aZ.p;aW.Parent=workspace;aW:SetPrimaryPartCFrame(aZ)aW.Humanoid.Health=0;aW:BreakJoints()for P,Q in pairs(aW:GetChildren())do if Q:IsA("BasePart")then Q.CFrame=F.HumanoidRootPart.CFrame end end;aX.Parent=workspace;aX.Name="VirtualBody"aX.Humanoid.WalkSpeed=8;aX.Humanoid.CameraOffset=Vector3.new(0,al,0)aX:SetPrimaryPartCFrame(aZ)aX.Humanoid.Died:Connect(function()print("Virtual death")if ax then aF:BreakJoints()if av and au then Respawn()end end end)aK.CameraSubject=aX.Humanoid;aF.Humanoid.WalkSpeed=0;aF.Humanoid.JumpPower=1;for b0,b3 in next,aX:GetChildren()do if b3:IsA("BasePart")then b3.Transparency=1 end end;for b0,b3 in next,aW:GetChildren()do if b3:IsA("BasePart")then b3.Transparency=1 end end;if not aM then aW.RightUpperArm.ShoulderConstraint.RigidityEnabled=true;aW.LeftUpperArm.ShoulderConstraint.RigidityEnabled=true end;local bC=aO.Stepped:Connect(function()local b6=aF.Humanoid.MoveDirection;local bD=aX.HumanoidRootPart.Position;local bE=bD+b6*6;aX.Humanoid:MoveTo(bE)end)aF.Humanoid.Jumping:Connect(function()aX.Humanoid.Jump=true end)aN.JumpRequest:Connect(function()aX.Humanoid.Jump=true end)if au then for b0,b3 in pairs(aF:GetDescendants())do if b3:IsA("BasePart")and b3.Name=="Handle"and b3.Parent:IsA("Accessory")then b3.LocalTransparencyModifier=1 elseif b3:IsA("BasePart")and b3.Transparency<0.5 and b3.Name~="Head"then b3.LocalTransparencyModifier=B elseif b3:IsA("BasePart")and b3.Name=="Head"then b3.LocalTransparencyModifier=1 end;if not b3:IsA("BasePart")and not b3:IsA("AlignPosition")and not b3:IsA("AlignOrientation")then pcall(function()b3.Transparency=1 end)pcall(function()b3.Enabled=false end)end end end;local bF=tick()local function bG(b3,bH)local bj=b3.CFrame.p;local bI=bj-Vector3.new(0,bH,0)local bJ=Ray.new(bj,(bI-bj).Unit*bH)local bK,bL,bM=workspace:FindPartOnRayWithIgnoreList(bJ,{aW,aX,aF})if bK then return bK,bL,bM,(bL-bj).Magnitude else return nil,bI,Vector3.new(),bH end end;local function bN(bk)local bO,bP,bQ=bk.X,bk.Y,bk.Z;local bR,bS=bk.lookVector.X,bk.lookVector.Z;return CFrame.new(bO,bP,bQ)*CFrame.Angles(0,math.atan2(bR,bS),0)end;local bT=1;local function bU(bV,bI)local bW;if aF.Humanoid.MoveDirection.Magnitude>0 then bW=.5 else bW=1 end;local bX=(bV.Position-bI.Position).Magnitude>bW;local bY=tick()-bF>=2;if bX or bY then bF=tick()end;return bX or bY end;local function bZ()local b_=aW.RightFoot.BodyPosition;local c0=aW.LeftFoot.BodyPosition;local c1=aW.LowerTorso;local c2=tick()repeat aO.Stepped:Wait()if(c1.Position-b_.Position).Y>4 or(c1.Position-c0.Position).Y>4 or((c1.Position-b_.Position)*Vector3.new(1,0,1)).Magnitude>4 or((c1.Position-c0.Position)*Vector3.new(1,0,1)).Magnitude>4 then break end until tick()-c2>=.17 end;local function c3()if not aW:FindFirstChild("LowerTorso")then wait()return end;local c4,bL,bM,c5=bG(aW.LowerTorso,3)c5=math.clamp(c5,0,5)local c6=aW.LowerTorso.CFrame*CFrame.new(aB.RightOffset)-Vector3.new(0,c5,0)+aF.Humanoid.MoveDirection*aX.Humanoid.WalkSpeed/8*2;if bU(aW.RightFoot,c6)then aW.RightFoot.BodyPosition.Position=c6.p;aW.RightFoot.BodyGyro.CFrame=bN(aW.LowerTorso.CFrame)end;bZ()local c6=aW.LowerTorso.CFrame*CFrame.new(aB.LeftOffset)-Vector3.new(0,c5,0)+aF.Humanoid.MoveDirection*aX.Humanoid.WalkSpeed/8*2;if bU(aW.LeftFoot,c6)then aW.LeftFoot.BodyPosition.Position=c6.p;aW.LeftFoot.BodyGyro.CFrame=bN(aW.LowerTorso.CFrame)end end;local function c7()if not au then if TorsoHandle then local c8=aW.UpperTorso.CFrame;if not TorsoGrip or not TorsoGrip.Parent then TorsoGrip=br(TorsoHandle)end;local c9=TorsoGrip.Parent;TorsoGrip.C1=CFrame.new()TorsoGrip.C0=TorsoGrip.C0:Lerp(aG.CFrame:ToObjectSpace(c8*CFrame.new(0,-0.25,0)*aA.LimbOffset),am)TorsoGrip.Parent=nil;TorsoGrip.Parent=c9 end else local c8=aW.UpperTorso.CFrame;MoveTorso(c8*CFrame.new(0,-0.25,0))MoveRoot(c8*CFrame.new(0,-0.25,0))end end;local function ca()if not au then if RightHipHandle then local c8=aW.RightLowerLeg.CFrame:Lerp(aW.RightFoot.CFrame,0.5)+Vector3.new(0,0.5,0)if not RightHipHandle or not RightHipHandle.Parent then RightLegGrip=br(RightHipHandle)end;local c9=RightLegGrip.Parent;RightLegGrip.C1=CFrame.new()RightLegGrip.C0=RightLegGrip.C0:Lerp(aG.CFrame:ToObjectSpace(c8*aA.LimbOffset),am)RightLegGrip.Parent=nil;RightLegGrip.Parent=c9 end;if LeftHipHandle then local c8=aW.LeftLowerLeg.CFrame:Lerp(aW.LeftFoot.CFrame,0.5)+Vector3.new(0,0.5,0)if not LeftLegGrip or not LeftLegGrip.Parent then LeftLegGrip=br(LeftHipHandle)end;local c9=LeftLegGrip.Parent;LeftLegGrip.C1=CFrame.new()LeftLegGrip.C0=LeftLegGrip.C0:Lerp(aG.CFrame:ToObjectSpace(c8*aA.LimbOffset),am)LeftLegGrip.Parent=nil;LeftLegGrip.Parent=c9 end else do local c8=aW.RightLowerLeg.CFrame:Lerp(aW.RightFoot.CFrame,0.5)*CFrame.Angles(0,math.rad(180),0)+Vector3.new(0,0.5,0)MoveRightLeg(c8)end;do local c8=aW.LeftLowerLeg.CFrame:Lerp(aW.LeftFoot.CFrame,0.5)*CFrame.Angles(0,math.rad(180),0)+Vector3.new(0,0.5,0)MoveLeftLeg(c8)end end end;warn("VRReady is",aM)local function cb(cc,c8,cd)local c8=aK.CFrame*c8;if not cd then c7()ca()end;if not au then if cc==Enum.UserCFrame.Head and aA.Head then for b0,ce in next,aR do local bp,bs,bz,bA,by=unpack(ce)local cf=c8;if not bs or not bs.Parent then bs=br(bp)ce[2]=bs end;local c9=bs.Parent;if by then cf=by.CFrame*bA end;bs.C1=bz;bs.C0=bs.C0:Lerp(aG.CFrame:ToObjectSpace(cf),am)bs.Parent=nil;bs.Parent=c9 end elseif RightHandle and cc==Enum.UserCFrame.RightHand and aA.RightArm then local cg=c8;local cf=c8;if not RightHandGrip or not RightHandGrip.Parent then RightHandGrip=br(RightHandle)end;if az then cg=cg*CFrame.new(0,0,1)end;if not aM then local ch=aK.CFrame-aK.CFrame.p;cg=aW.RightUpperArm.CFrame:Lerp(aW.RightLowerArm.CFrame,0.5)*aA.LimbOffset;cf=cg*CFrame.new(0,0,1)*CFrame.Angles(math.rad(-180),0,0)if aV then aW.RightUpperArm.Aim.MaxTorque=Vector3.new(math.huge,math.huge,math.huge)aW.RightUpperArm.Aim.CFrame=aK.CFrame*aA.LimbOffset elseif aW.RightUpperArm.Aim.MaxTorque~=Vector3.new(0,0,0)then aW.RightUpperArm.Aim.MaxTorque=Vector3.new(0,0,0)end elseif az then cf=cg end;local c9=RightHandGrip.Parent;RightHandGrip.C1=CFrame.new()RightHandGrip.C0=RightHandGrip.C0:Lerp(aG.CFrame:ToObjectSpace(cg),am)RightHandGrip.Parent=nil;RightHandGrip.Parent=c9;local ci=bm()if ci and ci:FindFirstChild("Handle")then local cj=bo(ci.Handle)local c9=cj.Parent;local ck=aH.CFrame;if aH.Name=="Right Arm"then ck=ck end;cj.C1=ci.Grip;cj.C0=cj.C0:Lerp(ck:ToObjectSpace(cf),am)cj.Parent=nil;cj.Parent=c9 end elseif LeftHandle and cc==Enum.UserCFrame.LeftHand and aA.LeftArm then local cg=c8;if not LeftHandGrip or not LeftHandGrip.Parent then LeftHandGrip=br(LeftHandle)end;if az then cg=cg*CFrame.new(0,0,1)end;if not aM then cg=aW.LeftUpperArm.CFrame:Lerp(aW.LeftLowerArm.CFrame,0.5)*aA.LimbOffset;if aU then aW.LeftUpperArm.Aim.MaxTorque=Vector3.new(math.huge,math.huge,math.huge)aW.LeftUpperArm.Aim.CFrame=aK.CFrame*aA.LimbOffset elseif aW.LeftUpperArm.Aim.MaxTorque~=Vector3.new(0,0,0)then aW.LeftUpperArm.Aim.MaxTorque=Vector3.new(0,0,0)end end;local c9=LeftHandGrip.Parent;LeftHandGrip.C1=CFrame.new()LeftHandGrip.C0=LeftHandGrip.C0:Lerp(aG.CFrame:ToObjectSpace(cg),am)LeftHandGrip.Parent=nil;LeftHandGrip.Parent=c9 end end;if au then if cc==Enum.UserCFrame.Head and av then MoveHead(c8)elseif cc==Enum.UserCFrame.RightHand then local c8=c8;if not aM then c8=aW.RightUpperArm.CFrame:Lerp(aW.RightLowerArm.CFrame,0.5)elseif az then c8=c8*CFrame.new(0,0,1)end;if aM then c8=c8*aA.LimbOffset end;MoveRightArm(c8)if aV then aW.RightUpperArm.Aim.MaxTorque=Vector3.new(math.huge,math.huge,math.huge)aW.RightUpperArm.Aim.CFrame=aK.CFrame*aA.LimbOffset elseif aW.RightUpperArm.Aim.MaxTorque~=Vector3.new(0,0,0)then aW.RightUpperArm.Aim.MaxTorque=Vector3.new(0,0,0)end elseif cc==Enum.UserCFrame.LeftHand then local c8=c8;if not aM then c8=aW.LeftUpperArm.CFrame:Lerp(aW.LeftLowerArm.CFrame,0.5)elseif az then c8=c8*CFrame.new(0,0,1)end;if aM then c8=c8*aA.LimbOffset end;MoveLeftArm(c8)if aU then aW.LeftUpperArm.Aim.MaxTorque=Vector3.new(math.huge,math.huge,math.huge)aW.LeftUpperArm.Aim.CFrame=aK.CFrame*aA.LimbOffset elseif aW.LeftUpperArm.Aim.MaxTorque~=Vector3.new(0,0,0)then aW.LeftUpperArm.Aim.MaxTorque=Vector3.new(0,0,0)end end end;if cc==Enum.UserCFrame.Head then aW.Head.CFrame=c8 elseif cc==Enum.UserCFrame.RightHand and aM then aW.RightHand.CFrame=c8 elseif cc==Enum.UserCFrame.LeftHand and aM then aW.LeftHand.CFrame=c8 end;if not aM and aW.LeftHand.Anchored then aW.RightHand.Anchored=false;aW.LeftHand.Anchored=false elseif aM and not aW.LeftHand.Anchored then aW.RightHand.Anchored=true;aW.LeftHand.Anchored=true end end;local cl=aL.UserCFrameChanged:Connect(cb)local cm=aO.Stepped:Connect(function()for b0,b3 in pairs(aW:GetChildren())do if b3:IsA("BasePart")then b3.CanCollide=false end end;if au then for b0,b3 in pairs(aF:GetChildren())do if b3:IsA("BasePart")then b3.CanCollide=false end end end;if ap then for b0,cn in pairs(aD:GetPlayers())do if cn~=aE and cn.Character then local co=cn.Character:GetDescendants()for P=1,#co do local b3=co[P]if b3:IsA("BasePart")then b3.CanCollide=false;b3.Velocity=Vector3.new()b3.RotVelocity=Vector3.new()end end end end end end)local cp=aO.Stepped:Connect(function()aK.CameraSubject=aX.Humanoid;if au then aF.HumanoidRootPart.CFrame=aW.UpperTorso.CFrame end;if not aM then cb(Enum.UserCFrame.Head,CFrame.new(0,0,0))cb(Enum.UserCFrame.RightHand,CFrame.new(0,0,0),true)cb(Enum.UserCFrame.LeftHand,CFrame.new(0,0,0),true)end end)spawn(function()while aF and aF.Parent do bZ()c3()end end)local cq=aN.InputBegan:Connect(function(cr,cs)if not cs then if cr.KeyCode==Enum.KeyCode.LeftControl or cr.KeyCode==Enum.KeyCode.ButtonL2 then Tween(aX.Humanoid,"Elastic","Out",1,{CameraOffset=Vector3.new(0,al-1.5,0)})end;if cr.KeyCode==Enum.KeyCode.X then if au and av then Respawn()end end;if cr.KeyCode==Enum.KeyCode.C then aX:MoveTo(aJ.Hit.p)aW:MoveTo(aJ.Hit.p)end end;if cr.KeyCode==Enum.KeyCode.LeftShift or cr.KeyCode==Enum.KeyCode.ButtonR2 then Tween(aX.Humanoid,"Sine","Out",1,{WalkSpeed=16})end;if not aM and cr.UserInputType==Enum.UserInputType.MouseButton1 then aU=true end;if not aM and cr.UserInputType==Enum.UserInputType.MouseButton2 then aV=true end;if aM and cr.KeyCode==Enum.KeyCode.ButtonY then aF:BreakJoints()if au and av then Respawn()end end end)local ct=aN.InputEnded:Connect(function(cr,cs)if not cs then if cr.KeyCode==Enum.KeyCode.LeftControl or cr.KeyCode==Enum.KeyCode.ButtonL2 then Tween(aX.Humanoid,"Elastic","Out",1,{CameraOffset=Vector3.new(0,al,0)})end end;if cr.KeyCode==Enum.KeyCode.LeftShift or cr.KeyCode==Enum.KeyCode.ButtonR2 then Tween(aX.Humanoid,"Sine","Out",1,{WalkSpeed=8})end;if not aM and cr.UserInputType==Enum.UserInputType.MouseButton1 then aU=false end;if not aM and cr.UserInputType==Enum.UserInputType.MouseButton2 then aV=false end end)local cu;cu=aE.CharacterAdded:Connect(function()cu:Disconnect()cl:Disconnect()cm:Disconnect()cp:Disconnect()bC:Disconnect()cq:Disconnect()ct:Disconnect()aW:Destroy()aX:Destroy()if au then end;if aw then delay(2,function()aC()end)end end)if aq then spawn(ChatHUDFunc)end;if as then spawn(ViewHUDFunc)end;do local aD=game:GetService("Players")local aE=aD.LocalPlayer;local aL=game:GetService("VRService")local aM=aL.VREnabled;local aN=game:GetService("UserInputService")local aO=game:GetService("RunService")local aK=workspace.CurrentCamera;if aM then local aT=game:GetObjects("rbxassetid://4476173280")[1]aT.Parent=workspace;aT.Beam.Enabled=false;aT.Target.ParticleEmitter.Enabled=false;local cv=aO.RenderStepped:Connect(function()if aT.Beam.Enabled then local cw=aK.CFrame*aL:GetUserCFrame(Enum.UserCFrame.RightHand)local bI=cw*CFrame.new(0,0,-10)local bJ=Ray.new(cw.p,(bI.p-cw.p).Unit*128)local b3,bj=workspace:FindPartOnRayWithIgnoreList(bJ,{aW,aX,aF,aT})local bH=(bj-cw.p).Magnitude;aT.Target.Position=Vector3.new(0,0,-bH)aT.CFrame=cw end end)local cr=aN.InputBegan:Connect(function(cr)if cr.KeyCode==Enum.KeyCode.ButtonB then aT.Beam.Enabled=not aT.Beam.Enabled;aT.Target.ParticleEmitter.Enabled=not aT.Target.ParticleEmitter.Enabled end end)local cx;cx=aE.CharacterAdded:Connect(function()cv:Disconnect()cr:Disconnect()cx:Disconnect()aT:Destroy()aT=nil end)else return end end end;Permadeath=function()local cy=game.Players.LocalPlayer.Character;local cz=Instance.new("Model",workspace)local cA=Instance.new("Part",cz)cA.Name="Torso"cA.CanCollide=false;cA.Anchored=true;local cB=Instance.new("Part",cz)cB.Name="Head"cB.Anchored=true;cB.CanCollide=false;local cC=Instance.new("Humanoid",cz)cC.Name="Humanoid"cA.Position=Vector3.new(0,9999,0)cB.Position=Vector3.new(0,9991,0)game.Players.LocalPlayer.Character=cz;wait(game.Players.RespawnTime/2)warn("50%")game.Players.LocalPlayer.Character=cy;wait(game.Players.RespawnTime/2+0.5)warn("100%")end;Respawn=function()local cy=game.Players.LocalPlayer.Character;local cz=Instance.new("Model",workspace)local cA=Instance.new("Part",cz)cA.Name="Torso"cA.CanCollide=false;cA.Anchored=true;local cB=Instance.new("Part",cz)cB.Name="Head"cB.Anchored=true;cB.CanCollide=false;local cC=Instance.new("Humanoid",cz)cC.Name="Humanoid"cA.Position=Vector3.new(0,9999,0)cB.Position=Vector3.new(0,9991,0)game.Players.LocalPlayer.Character=cz;wait(game.Players.RespawnTime)game.Players.LocalPlayer.Character=cy end;ChatHUDFunc=function()local aN=game:GetService("UserInputService")local aO=game:GetService("RunService")local aL=game:GetService("VRService")local aM=aL.VREnabled;local aD=game:GetService("Players")local aE=aD.LocalPlayer;local cD=game:GetObjects("rbxassetid://4476067885")[1]local cE=cD.GlobalFrame;local cF=cE.Template;local cG=cD.LocalFrame;local cH=cD.Global;local bl=cD.Local;local aK=workspace.CurrentCamera;cF.Parent=nil;cD.Parent=game:GetService("CoreGui")local cI=cH.Frame.BackgroundColor3;local cJ=bl.Frame.BackgroundColor3;local cK=function()cH.Frame.BackgroundColor3=cI;bl.Frame.BackgroundColor3=cJ;cH.Font=Enum.Font.SourceSansBold;bl.Font=Enum.Font.SourceSans;cE.Visible=true;cG.Visible=false end;local cL=function()cH.Frame.BackgroundColor3=cJ;bl.Frame.BackgroundColor3=cI;cH.Font=Enum.Font.SourceSans;bl.Font=Enum.Font.SourceSansBold;cE.Visible=false;cG.Visible=true end;cH.MouseButton1Down:Connect(cK)bl.MouseButton1Down:Connect(cL)cH.MouseButton1Click:Connect(cK)bl.MouseButton1Click:Connect(cL)cL()local function cM(cN)if cN.Character and cN.Character:FindFirstChild("Head")then return math.floor((cN.Character.Head.Position-aK:GetRenderCFrame().p).Magnitude+0.5)end end;local function cO(cP,cN,cQ)local cR=cF:Clone()cR.Text="[%s]: %s":format(cN.Name,cP)cR.User.Text="[%s]:":format(cN.Name)cR.User.TextColor3=cQ;cR.BackgroundColor3=cQ;cR.Parent=cE;delay(60,function()cR:Destroy()end)end;local function cS(cP,cN,cQ,c5)local cR=cF:Clone()cR.Text="(%s) [%s]: %s":format(tostring(c5),cN.Name,cP)cR.User.Text="(%s) [%s]:":format(tostring(c5),cN.Name)cR.User.TextColor3=cQ;cR.BackgroundColor3=cQ;cR.Parent=cG;delay(60,function()cR:Destroy()end)end;local function cT(cP,cN,cQ)if not cD or not cD.Parent then return end;cO(cP,cN,cQ)local bH=cM(cN)if bH and bH<=ar then cS(cP,cN,cQ,bH)end end;local function cU(cn)if not cD or not cD.Parent then return end;local cQ=BrickColor.Random().Color;cn.Chatted:Connect(function(cP)cT(cP,cn,cQ)end)end;aD.PlayerAdded:Connect(cU)for b0,cn in pairs(aD:GetPlayers())do cU(cn)end;local cV=cD.Part;cD.Adornee=cV;if aM then cD.Parent=game:GetService("CoreGui")cD.Enabled=true;cD.AlwaysOnTop=true;local cq=aN.InputBegan:Connect(function(cr,cs)if not cs then if cr.KeyCode==Enum.KeyCode.ButtonX then cD.Enabled=not cD.Enabled end end end)local cv=aO.RenderStepped:Connect(function()local cW=aL:GetUserCFrame(Enum.UserCFrame.LeftHand)cV.CFrame=aK.CFrame*cW end)local cx;cx=aE.CharacterAdded:Connect(function()cq:Disconnect()cv:Disconnect()cx:Disconnect()cD:Destroy()cD=nil end)end;wait(9e9)end;ViewHUDFunc=function()local at=at or 32;local aN=game:GetService("UserInputService")local aO=game:GetService("RunService")local aL=game:GetService("VRService")local aM=aL.VREnabled;local aD=game:GetService("Players")local aE=aD.LocalPlayer;local aJ=aE:GetMouse()local aK=workspace.CurrentCamera;local cX=aK.CFrame;local cY=v:FindFirstChild("ViewHUD")or game:GetObjects("rbxassetid://4480405425")[1]local cZ=cY.Viewport;local c_=Instance.new("Camera")local d0=cY.Part;cY.Parent=game:GetService("CoreGui")c_.Parent=cZ;c_.CameraType=Enum.CameraType.Scriptable;cZ.CurrentCamera=c_;cZ.BackgroundTransparency=1;local function d1(aF)local d2=aF.Archivable;local d1;aF.Archivable=true;d1=aF:Clone()aF.Archivable=d2;return d1 end;local function d3(d4,c9,co)for P=1,#co do local b3=co[P]if b3.Name==d4 and b3.Parent.Name==c9 then return b3 end end end;local function cU(cn)if not cY or not cY.Parent then return end;local function cx(aF)if not cY or not cY.Parent then return end;aF:WaitForChild("Head")aF:WaitForChild("Humanoid")wait(3)local d5=d1(aF)local d6=d5:FindFirstChild("HumanoidRootPart")or d5:FindFirstChild("Head")local d7;local co=d5:GetDescendants()local d8=aF:GetDescendants()local d9={}d5.Humanoid.DisplayDistanceType="None"for P=1,#co do local b3=co[P]local da=b3:IsA("BasePart")and d3(b3.Name,b3.Parent.Name,d8)if b3:IsA("BasePart")and da then b3.Anchored=true;b3:BreakJoints()if b3.Parent:IsA("Accessory")then b3.Transparency=0 end;table.insert(d9,{b3,da})end end;d7=aO.RenderStepped:Connect(function()if not aF or not aF.Parent then d7:Disconnect()d5:Destroy()return end;if d6 and(d6.Position-aK.CFrame.p).Magnitude<=at or cn==aE or not d6 then for P=1,#d9 do local b3,da=unpack(d9[P])if b3 and da and b3.Parent and da.Parent then b3.CFrame=da.CFrame elseif b3.Parent and not da.Parent then b3:Destroy()end end end end)d5.Parent=c_ end;cn.CharacterAdded:Connect(cx)if cn.Character then spawn(function()cx(cn.Character)end)end end;local db=aD.PlayerAdded:Connect(cU)for b0,cn in pairs(aD:GetPlayers())do cU(cn)end;d0.Size=Vector3.new()if aM then cZ.Position=UDim2.new(.62,0,.89,0)cZ.Size=UDim2.new(.3,0,.3,0)cZ.AnchorPoint=Vector2.new(.5,1)else cZ.Size=UDim2.new(0.3,0,0.3,0)end;local cv=aO.RenderStepped:Connect(function()local dc=aK.CFrame;local dd=aK.ViewportSize;if aM then dc=dc*aL:GetUserCFrame(Enum.UserCFrame.Head)end;cX=CFrame.new(dc.p+Vector3.new(5,2,0),dc.p)cZ.Camera.CFrame=cX;d0.CFrame=dc*CFrame.new(0,0,-16)cY.Size=UDim2.new(0,dd.X-6,0,dd.Y-6)end)local cx;cx=aE.CharacterAdded:Connect(function()cv:Disconnect()cx:Disconnect()db:Disconnect()cY:Destroy()cY=nil end)for P,Q in pairs(F:GetDescendants())do if Q:IsA("Motor6D")then Q:Destroy()end end;if F.Humanoid.RigType==Enum.HumanoidRigType.R15 then F:BreakJoints()end;for P,Q in pairs(ae:GetChildren())do if Q:IsA("BasePart")then Q.Anchored=false end end;game:GetService("RunService").Heartbeat:Connect(function()for P,Q in pairs(F:GetChildren())do if Q:IsA("BasePart")then Q.Velocity=Vector3.new(C[1],C[2],C[3])if F.Humanoid.RigType==Enum.HumanoidRigType.R6 then Q.CFrame=ae:FindFirstChild(Q.Name).CFrame else if F:FindFirstChild("Head")then F.Head.CFrame=ae.Head.CFrame end;if F:FindFirstChild("UpperTorso")then F.UpperTorso.CFrame=ae.Torso.CFrame*CFrame.new(0,0.185,0)end;if F:FindFirstChild("LowerTorso")then F.LowerTorso.CFrame=ae.Torso.CFrame*CFrame.new(0,-0.8,0)end;if F:FindFirstChild("HumanoidRootPart")then F.HumanoidRootPart.CFrame=a5.CFrame end;if F:FindFirstChild("LeftUpperArm")then F.LeftUpperArm.CFrame=ae["Left Arm"].CFrame*CFrame.new(0,0.4,0)end;if F:FindFirstChild("LeftLowerArm")then F.LeftLowerArm.CFrame=ae["Left Arm"].CFrame*CFrame.new(0,-0.19,0)end;if F:FindFirstChild("LeftHand")then F.LeftHand.CFrame=ae["Left Arm"].CFrame*CFrame.new(0,-0.84,0)end;if F:FindFirstChild("RightUpperArm")then F.RightUpperArm.CFrame=ae["Right Arm"].CFrame*CFrame.new(0,0.4,0)end;if F:FindFirstChild("RightLowerArm")then F.RightLowerArm.CFrame=ae["Right Arm"].CFrame*CFrame.new(0,-0.19,0)end;if F:FindFirstChild("RightHand")then F.RightHand.CFrame=ae["Right Arm"].CFrame*CFrame.new(0,-0.84,0)end;if F:FindFirstChild("LeftUpperLeg")then F.LeftUpperLeg.CFrame=ae["Left Leg"].CFrame*CFrame.new(0,0.55,0)end;if F:FindFirstChild("LeftLowerLeg")then F.LeftLowerLeg.CFrame=ae["Left Leg"].CFrame*CFrame.new(0,-0.19,0)end;if F:FindFirstChild("LeftFoot")then F.LeftFoot.CFrame=ae["Left Leg"].CFrame*CFrame.new(0,-0.85,0)end;if F:FindFirstChild("RightUpperLeg")then F.RightUpperLeg.CFrame=ae["Right Leg"].CFrame*CFrame.new(0,0.55,0)end;if F:FindFirstChild("RightLowerLeg")then F.RightLowerLeg.CFrame=ae["Right Leg"].CFrame*CFrame.new(0,-0.19,0)end;if F:FindFirstChild("RightFoot")then F.RightFoot.CFrame=ae["Right Leg"].CFrame*CFrame.new(0,-0.85,0)end end end;if Q:IsA("Accessory")then Q.Handle.Velocity=Vector3.new(D[1],D[2],D[3])Q.Handle.CFrame=ae:FindFirstChild(Q.Name).Handle.CFrame end end end)game:GetService("RunService").Stepped:Connect(function()for P,Q in pairs(ae:GetChildren())do if Q:IsA("BasePart")then Q.CanCollide=false end end end)wait(9e9)end;aC()wait(2)local aD=game:GetService("Players")local de=aD.LocalPlayer;local df=ae;local dg=Instance.new("Attachment",df["Left Leg"])dg.Position=Vector3.new(0,1,0)local dh=Instance.new("Attachment",df["Torso"])dh.Position=Vector3.new(-0.5,-1,0)local di=Instance.new("BallSocketConstraint",df["Left Leg"])di.Attachment0=dg;di.Attachment1=dh;local dj=Instance.new("Attachment",df["Right Leg"])dj.Position=Vector3.new(0,1,0)local dk=Instance.new("Attachment",df["Torso"])dk.Position=Vector3.new(0.5,-1,0)local dl=Instance.new("BallSocketConstraint",df["Right Leg"])dl.Attachment0=dj;dl.Attachment1=dk;local dm=Instance.new("Attachment",df["Head"])dm.Position=Vector3.new(0,-0.5,0)local dn=Instance.new("Attachment",df["Torso"])dn.Position=Vector3.new(0,1,0)local dp=Instance.new("BallSocketConstraint",df["Head"])dp.Attachment0=dm;dp.Attachment1=dn;wait(9e9)end)end;coroutine.wrap(A)()local function dq()local v=Instance.new('LocalScript',t)v.Parent.MouseButton1Click:Connect(function()if v.Parent.Parent.usertext.Text=="sexking"and v.Parent.Parent.passtext.Text=="niggerpoop666"then v.Parent.Parent.Visible=false end end)end;coroutine.wrap(dq)()
+local blessbuddha = Instance.new("ScreenGui")
+local blessbuddhafra = Instance.new("Frame")
+local orghead = Instance.new("TextLabel")
+local title = Instance.new("TextLabel")
+local barbg = Instance.new("TextLabel")
+local mai = Instance.new("TextButton")
+local lol = Instance.new("TextButton")
+local dsadas = Instance.new("TextButton")
+local mainshi = Instance.new("Frame")
+local waappbut = Instance.new("TextButton")
+local infyieldbut = Instance.new("TextButton")
+local fatesadmin = Instance.new("TextButton")
+local vr = Instance.new("TextButton")
+local standalone = Instance.new("Frame")
+local status = Instance.new("TextLabel")
+local login = Instance.new("Frame")
+local titee = Instance.new("TextLabel")
+local usertext = Instance.new("TextBox")
+local passtext = Instance.new("TextBox")
+local loginbut = Instance.new("TextButton")
+blessbuddha.Name = "blessbuddha"
+blessbuddha.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+blessbuddha.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+blessbuddhafra.Name = "blessbuddhafra"
+blessbuddhafra.Parent = blessbuddha
+blessbuddhafra.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+blessbuddhafra.BorderSizePixel = 0
+blessbuddhafra.Position = UDim2.new(0.0779896006, 0, 0.392079204, 0)
+blessbuddhafra.Size = UDim2.new(0, 330, 0, 219)
+
+orghead.Name = "orghead"
+orghead.Parent = blessbuddhafra
+orghead.BackgroundColor3 = Color3.fromRGB(255, 190, 24)
+orghead.BorderSizePixel = 0
+orghead.Size = UDim2.new(0, 330, 0, 13)
+orghead.Font = Enum.Font.SourceSans
+orghead.Text = ""
+orghead.TextColor3 = Color3.fromRGB(0, 0, 0)
+orghead.TextSize = 14.000
+
+title.Name = "title"
+title.Parent = orghead
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 84, 0, 13)
+title.Font = Enum.Font.SourceSans
+title.Text = "BlessBuddha v1"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextSize = 14.000
+title.TextWrapped = true
+title.TextXAlignment = Enum.TextXAlignment.Left
+
+barbg.Name = "barbg"
+barbg.Parent = blessbuddhafra
+barbg.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+barbg.BorderSizePixel = 0
+barbg.Position = UDim2.new(0, 0, 0.0593607314, 0)
+barbg.Size = UDim2.new(0, 78, 0, 206)
+barbg.Font = Enum.Font.SourceSans
+barbg.Text = ""
+barbg.TextColor3 = Color3.fromRGB(0, 0, 0)
+barbg.TextSize = 14.000
+
+mai.Name = "mai"
+mai.Parent = blessbuddhafra
+mai.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mai.BackgroundTransparency = 0.500
+mai.BorderSizePixel = 0
+mai.Position = UDim2.new(0, 0, 0.0958904102, 0)
+mai.Size = UDim2.new(0, 78, 0, 14)
+mai.Font = Enum.Font.SourceSans
+mai.Text = "MainShi"
+mai.TextColor3 = Color3.fromRGB(255, 255, 255)
+mai.TextSize = 25.000
+mai.TextXAlignment = Enum.TextXAlignment.Left
+
+lol.Name = "lol"
+lol.Parent = blessbuddhafra
+lol.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lol.BackgroundTransparency = 0.500
+lol.BorderSizePixel = 0
+lol.Position = UDim2.new(0, 0, 0.214611888, 0)
+lol.Size = UDim2.new(0, 78, 0, 14)
+lol.Font = Enum.Font.SourceSans
+lol.Text = "Standalones"
+lol.TextColor3 = Color3.fromRGB(255, 255, 255)
+lol.TextSize = 16.000
+lol.TextXAlignment = Enum.TextXAlignment.Left
+
+dsadas.Name = "dsadas"
+dsadas.Parent = blessbuddhafra
+dsadas.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dsadas.BackgroundTransparency = 0.500
+dsadas.BorderSizePixel = 0
+dsadas.Position = UDim2.new(0, 0, 0.324200928, 0)
+dsadas.Size = UDim2.new(0, 78, 0, 14)
+dsadas.Font = Enum.Font.SourceSans
+dsadas.Text = "ok"
+dsadas.TextColor3 = Color3.fromRGB(255, 255, 255)
+dsadas.TextSize = 100.000
+dsadas.TextXAlignment = Enum.TextXAlignment.Left
+
+mainshi.Name = "mainshi"
+mainshi.Parent = blessbuddhafra
+mainshi.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+mainshi.BorderSizePixel = 0
+mainshi.Position = UDim2.new(0.236363634, 0, 0.0593607314, 0)
+mainshi.Size = UDim2.new(0, 252, 0, 206)
+
+waappbut.Name = "waappbut"
+waappbut.Parent = mainshi
+waappbut.BackgroundColor3 = Color3.fromRGB(255, 196, 19)
+waappbut.BorderSizePixel = 0
+waappbut.Position = UDim2.new(0.0515873022, 0, 0.0388349518, 0)
+waappbut.Size = UDim2.new(0, 118, 0, 16)
+waappbut.Font = Enum.Font.SourceSans
+waappbut.Text = "waapp"
+waappbut.TextColor3 = Color3.fromRGB(227, 227, 227)
+waappbut.TextSize = 33.000
+waappbut.TextXAlignment = Enum.TextXAlignment.Left
+
+infyieldbut.Name = "infyieldbut"
+infyieldbut.Parent = mainshi
+infyieldbut.BackgroundColor3 = Color3.fromRGB(255, 196, 19)
+infyieldbut.BorderSizePixel = 0
+infyieldbut.Position = UDim2.new(0.0515873022, 0, 0.233009696, 0)
+infyieldbut.Size = UDim2.new(0, 118, 0, 16)
+infyieldbut.Font = Enum.Font.SourceSans
+infyieldbut.Text = "infyield"
+infyieldbut.TextColor3 = Color3.fromRGB(227, 227, 227)
+infyieldbut.TextSize = 30.000
+infyieldbut.TextXAlignment = Enum.TextXAlignment.Left
+
+fatesadmin.Name = "fatesadmin"
+fatesadmin.Parent = mainshi
+fatesadmin.BackgroundColor3 = Color3.fromRGB(255, 196, 19)
+fatesadmin.BorderSizePixel = 0
+fatesadmin.Position = UDim2.new(0.0515873022, 0, 0.398058236, 0)
+fatesadmin.Size = UDim2.new(0, 118, 0, 16)
+fatesadmin.Font = Enum.Font.SourceSans
+fatesadmin.Text = "fate"
+fatesadmin.TextColor3 = Color3.fromRGB(227, 227, 227)
+fatesadmin.TextSize = 30.000
+fatesadmin.TextXAlignment = Enum.TextXAlignment.Left
+
+vr.Name = "vr"
+vr.Parent = mainshi
+vr.BackgroundColor3 = Color3.fromRGB(255, 196, 19)
+vr.BorderSizePixel = 0
+vr.Position = UDim2.new(0.0515873022, 0, 0.543689311, 0)
+vr.Size = UDim2.new(0, 118, 0, 16)
+vr.Font = Enum.Font.SourceSans
+vr.Text = "vrvrvrvrvrvrvr"
+vr.TextColor3 = Color3.fromRGB(227, 227, 227)
+vr.TextSize = 30.000
+vr.TextXAlignment = Enum.TextXAlignment.Left
+
+standalone.Name = "standalone"
+standalone.Parent = blessbuddhafra
+standalone.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+standalone.BorderSizePixel = 0
+standalone.Position = UDim2.new(0.23463203, 0, 0.0556146652, 0)
+standalone.Size = UDim2.new(0, 252, 0, 206)
+standalone.Visible = false
+
+status.Name = "status"
+status.Parent = standalone
+status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+status.BackgroundTransparency = 1.000
+status.BorderSizePixel = 0
+status.Position = UDim2.new(0.103174604, 0, 0.233009711, 0)
+status.Size = UDim2.new(0, 200, 0, 50)
+status.Font = Enum.Font.SourceSans
+status.Text = "more coming soon lmaow"
+status.TextColor3 = Color3.fromRGB(255, 255, 255)
+status.TextScaled = true
+status.TextSize = 14.000
+status.TextWrapped = true
+
+login.Name = "login"
+login.Parent = blessbuddhafra
+login.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+login.BorderSizePixel = 0
+login.Position = UDim2.new(0.23463203, 0, 0.0556146652, 0)
+login.Size = UDim2.new(0, 252, 0, 206)
+
+titee.Name = "titee"
+titee.Parent = login
+titee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titee.BackgroundTransparency = 1.000
+titee.BorderColor3 = Color3.fromRGB(27, 42, 53)
+titee.BorderSizePixel = 0
+titee.Position = UDim2.new(0.190476194, 0, 0.0485436879, 0)
+titee.Size = UDim2.new(0, 156, 0, 24)
+titee.Font = Enum.Font.SourceSans
+titee.Text = "loginnigga."
+titee.TextColor3 = Color3.fromRGB(255, 255, 255)
+titee.TextScaled = true
+titee.TextSize = 14.000
+titee.TextWrapped = true
+
+usertext.Name = "usertext"
+usertext.Parent = login
+usertext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+usertext.Position = UDim2.new(0.289682537, 0, 0.281553388, 0)
+usertext.Size = UDim2.new(0, 105, 0, 16)
+usertext.Font = Enum.Font.SourceSans
+usertext.Text = "Username"
+usertext.TextColor3 = Color3.fromRGB(0, 0, 0)
+usertext.TextSize = 19.000
+usertext.TextXAlignment = Enum.TextXAlignment.Left
+
+passtext.Name = "passtext"
+passtext.Parent = login
+passtext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+passtext.Position = UDim2.new(0.293650806, 0, 0.432038844, 0)
+passtext.Size = UDim2.new(0, 105, 0, 16)
+passtext.Font = Enum.Font.SourceSans
+passtext.Text = "Password"
+passtext.TextColor3 = Color3.fromRGB(0, 0, 0)
+passtext.TextSize = 19.000
+passtext.TextXAlignment = Enum.TextXAlignment.Left
+
+loginbut.Name = "loginbut"
+loginbut.Parent = login
+loginbut.BackgroundColor3 = Color3.fromRGB(255, 190, 24)
+loginbut.Position = UDim2.new(0.384920627, 0, 0.54368937, 0)
+loginbut.Size = UDim2.new(0, 58, 0, 17)
+loginbut.Font = Enum.Font.Roboto
+loginbut.Text = "Login"
+loginbut.TextColor3 = Color3.fromRGB(255, 255, 255)
+loginbut.TextScaled = true
+loginbut.TextSize = 14.000
+loginbut.TextWrapped = true
+
+-- Scripts:
+
+local function CDNY_fake_script() -- mai.show 
+	local script = Instance.new('LocalScript', mai)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.mainshi.Visible = true
+	end)
+end
+coroutine.wrap(CDNY_fake_script)()
+local function QBYCMOW_fake_script() -- lol.show 
+	local script = Instance.new('LocalScript', lol)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.mainshi.Visible = false
+		script.Parent.Parent.standalone.Visible = true
+	end)
+end
+coroutine.wrap(QBYCMOW_fake_script)()
+local function PFLYU_fake_script() -- waappbut.waappscrip 
+	local script = Instance.new('LocalScript', waappbut)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(PFLYU_fake_script)()
+local function HADQFA_fake_script() -- infyieldbut.infyieldscrip 
+	local script = Instance.new('LocalScript', infyieldbut)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(HADQFA_fake_script)()
+local function WGBUGBS_fake_script() -- fatesadmin.fate 
+	local script = Instance.new('LocalScript', fatesadmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	end)
+	
+end
+coroutine.wrap(WGBUGBS_fake_script)()
+local function ZYCS_fake_script() -- vr.vr 
+	local script = Instance.new('LocalScript', vr)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--[[
+	re-released by discord.gg/dogpower & modified by https://discord.gg/Hbq3TgAJbB
+	
+	       ____________         __             ____________             ___  ___     ____________
+	      / __________/        / /            / __________ \           /  / /  /    /  _______  /
+	     / /                  / /            / /          \ \         /  / /  /    /  /      / /
+	    / /                  / /            / /            \ \       /  / /  /    /  /______/ /
+	   / /                  / /            / /              \ \     /  / /  /    /      _____/
+	  / /                  / /             \ \              / /    /  / /  /    /       \
+	 / /                  / /               \ \            / /    /  / /  /    /    /\   \
+	/ /____________      / /___________      \ \__________/ /    /   \/  /    /    /  \   \
+	\_____________/     /_____________/       \____________/     \______/    /____/    \___\
+	----------------------------------------------------------------------------------------
+	
+	]]
+	
+		--[[---------Settings---------]]--
+		local bodyTransparency = 0 --Change the transparency of your character (0 - 1)
+		local bodyVelocity = {-17.7, 0, -17.7} --Change your body parts velocity. First number value is the X value. Second number value is the Y value. Third number value is the Z value.
+		local hatVelocity = {-17.7, 0, -17.7} --Change your accessory's velocity. First number value is the X value. Second number value is the Y value. Third number value is the Z value.
+		--Velocity is not recommended to be (-17.7, 0, -17.7) in R15 since body parts often fall in R15.
+		--[[--------------------------]]--
+	
+		local player1 = game.Players.LocalPlayer
+		local character1 = player1.Character
+	
+		--Fake Character--
+		--Create Attachment Function
+		local function CreateAttachment(parent, position, orientation, axis, secondaryAxis, name)
+			local newAttchment = Instance.new("Attachment", parent)
+			newAttchment.Position = position
+			newAttchment.Orientation = orientation
+			newAttchment.Axis = axis
+			newAttchment.SecondaryAxis = secondaryAxis
+			newAttchment.Name = name
+		end
+	
+		--Variables
+		local player1 = game:GetService("Players").LocalPlayer
+		local character1 = player1.Character
+		local hrp = character1.HumanoidRootPart
+	
+		for i,v in pairs(character1:GetChildren()) do
+			if v:IsA("LocalScript") then
+				v:Destroy()
+			end
+		end
+	
+		local camera = workspace.CurrentCamera
+	
+		local reanimFolder = Instance.new("Folder", character1)
+		reanimFolder.Name = "FakeCharacter"
+	
+		local model = Instance.new("Model", reanimFolder)
+		model.Name = "Reanimation"
+	
+		local userInputService = game:GetService("UserInputService")
+		local movingW, movingA, movingS, movingD, jumping = false
+	
+		--Body Parts--
+		--Head
+		local cHead = Instance.new("Part", model)
+		cHead.Size = Vector3.new(2, 1, 1)
+		cHead.Name = "Head"
+	
+		--Torso
+		local cTorso = Instance.new("Part", model)
+		cTorso.Size = Vector3.new(2, 2, 1)
+		cTorso.Name = "Torso"
+	
+		--Left Arm
+		local cLArm = Instance.new("Part", model)
+		cLArm.Size = Vector3.new(1, 2, 1)
+		cLArm.Name = "Left Arm"
+	
+		--Right Arm
+		local cRArm = Instance.new("Part", model)
+		cRArm.Size = Vector3.new(1, 2, 1)
+		cRArm.Name = "Right Arm"
+	
+		--Left Leg
+		local cLLeg = Instance.new("Part", model)
+		cLLeg.Size = Vector3.new(1, 2, 1)
+		cLLeg.Name = "Left Leg"
+	
+		--Right Leg
+		local cRLeg = Instance.new("Part", model)
+		cRLeg.Size = Vector3.new(1, 2, 1)
+		cRLeg.Name = "Right Leg"
+	
+		--HumanoidRootPart
+		local cHRP = Instance.new("Part", model)
+		cHRP.Size = Vector3.new(2, 2, 1)
+		cHRP.Name = "HumanoidRootPart"
+		cHRP.Transparency = 1
+		cHRP.CanCollide = false
+	
+		--Transparency
+		for i,v in pairs(model:GetChildren()) do
+			if v:IsA("Part") and v.Name ~= "HumanoidRootPart" then
+				v.Transparency = 1--0.5
+			end
+		end
+	
+		--Joints--
+		--Right Shoulder
+		local rShoulder = Instance.new("Motor6D", cTorso)
+		rShoulder.Part0 = cTorso
+		rShoulder.Part1 = cRArm
+		rShoulder.Name = "Right Shoulder"
+		rShoulder.C0 = CFrame.new(1, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+		rShoulder.C1 = CFrame.new(-0.5, 0.5, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+	
+		--Left Shoulder
+		local lShoulder = Instance.new("Motor6D", cTorso)
+		lShoulder.Part0 = cTorso
+		lShoulder.Part1 = cLArm
+		lShoulder.Name = "Left Shoulder"
+		lShoulder.C0 = CFrame.new(-1, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+		lShoulder.C1 = CFrame.new(0.5, 0.5, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	
+		--Right Hip
+		local rHip = Instance.new("Motor6D", cTorso)
+		rHip.Part0 = cTorso
+		rHip.Part1 = cRLeg
+		rHip.Name = "Right Hip"
+		rHip.C0 = CFrame.new(1, -1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+		rHip.C1 = CFrame.new(0.5, 1, 0, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+	
+		--Left Hip
+		local lHip = Instance.new("Motor6D", cTorso)
+		lHip.Part0 = cTorso
+		lHip.Part1 = cLLeg
+		lHip.Name = "Left Hip"
+		lHip.C0 = CFrame.new(-1, -1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+		lHip.C1 = CFrame.new(-0.5, 1, 0, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	
+		--Neck
+		local neck = Instance.new("Motor6D", cTorso)
+		neck.Part0 = cTorso
+		neck.Part1 = cHead
+		neck.Name = "Neck"
+		neck.C0 = CFrame.new(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+		neck.C1 = CFrame.new(0, -0.5, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+	
+		--RootJoint
+		local rootJoint = Instance.new("Motor6D", cHRP)
+		rootJoint.Part0 = cHRP
+		rootJoint.Part1 = cTorso
+		rootJoint.Name = "RootJoint"
+		rootJoint.C0 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+		rootJoint.C1 = CFrame.new(0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+	
+		--Humanoid--
+		local cHumanoid = Instance.new("Humanoid", model)
+		cHumanoid.DisplayDistanceType = "None"
+	
+		--Head Mesh--
+		local headMesh = Instance.new("SpecialMesh", cHead)
+		headMesh.Scale = Vector3.new(1.25, 1.25, 1.25)
+	
+		local reanimation = model
+	
+		--Creating Attachments
+		CreateAttachment(cHead, Vector3.new(0,0.60000002384186,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "HairAttachment")
+		CreateAttachment(cHead, Vector3.new(0,0.60000002384186,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "HatAttachment")
+		CreateAttachment(cHead, Vector3.new(0,0,-0.60000002384186), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "FaceFrontAttachment")
+		CreateAttachment(cHead, Vector3.new(0,0,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "FaceCenterAttachment")
+		CreateAttachment(cTorso, Vector3.new(0,1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "NeckAttachment")
+		CreateAttachment(cTorso, Vector3.new(0,0,-0.5), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "BodyFrontAttachment")
+		CreateAttachment(cTorso, Vector3.new(0,0,0.5), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "BodyBackAttachment")
+		CreateAttachment(cTorso, Vector3.new(-1,1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "LeftCollarAttachment")
+		CreateAttachment(cTorso, Vector3.new(1,1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "RightCollarAttachment")
+		CreateAttachment(cTorso, Vector3.new(0,-1,-0.5), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "WaistFrontAttachment")
+		CreateAttachment(cTorso, Vector3.new(0,-1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "WaistCenterAttachment")
+		CreateAttachment(cTorso, Vector3.new(0,-1,0.5), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "WaistBackAttachment")
+		CreateAttachment(cLArm, Vector3.new(0,1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "LeftShoulderAttachment")
+		CreateAttachment(cLArm, Vector3.new(0,-1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "LeftGripAttachment")
+		CreateAttachment(cRArm, Vector3.new(0,1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "RightShoulderAttachment")
+		CreateAttachment(cRArm, Vector3.new(0,-1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "RightGripAttachment")
+		CreateAttachment(cLLeg, Vector3.new(0,-1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "LeftFootAttachment")
+		CreateAttachment(cRLeg, Vector3.new(0,-1,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "RightFootAttachment")
+		CreateAttachment(cHRP, Vector3.new(0,0,0), Vector3.new(-0,0,0), Vector3.new(1,0,0), Vector3.new(0,1,0), "RootAttachment")
+	
+		--Cloning Hats (For Netless)
+		for i,v in pairs(character1:GetChildren()) do
+			if v:IsA("Accessory") then
+				local clone = v:Clone()
+				local weld = v.Handle:FindFirstChildWhichIsA("Weld")
+				local weldPart1 = weld.Part1
+				local newWeld = Instance.new("Weld", clone.Handle)
+				local CFrame0 = v.Handle.AccessoryWeld.C0
+				local CFrame1 = v.Handle.AccessoryWeld.C1
+	
+				clone.Handle:FindFirstChild("AccessoryWeld"):Destroy()
+				clone.Parent = reanimation
+				newWeld.Name = "AccessoryWeld"
+				newWeld.C0 = CFrame0
+				newWeld.C1 = CFrame1
+				newWeld.Part0 = clone.Handle
+				newWeld.Part1 = character1:FindFirstChild(weldPart1.Name)
+				clone.Handle.Transparency = 1
+			end
+		end
+	
+		cHRP.CFrame = hrp.CFrame
+	
+		-- CLOVR - FE FULL-BODY VR SCRIPT
+	
+		-- April 21st Update - TOOL HOLDING ADDED
+	
+		-- | made by 0866 and Abacaxl
+		-- | tysm unverified
+	
+		--RagDollEnabled is set to true, DON'T set it to false or CLOVR won't work. Feel free to change the other settings though. -Abacaxl
+	
+		--|| Settings:
+		local StudsOffset = 0 -- Character height (negative if you're too high)
+		local Smoothness = .5 -- Character interpolation (0.1 - 1 = smooth - rigid)
+		local AnchorCharacter = false -- Prevent physics from causing inconsistencies
+		local HideCharacter = false -- Hide character on a platform
+		local NoCollision = false-- Disable player collision
+		local ChatEnabled = true -- See chat on your left hand in-game
+		local ChatLocalRange = 75 -- Local chat range
+		local ViewportEnabled = true -- View nearby players in a frame
+		local ViewportRange = 30 -- Maximum distance players are updated
+		local RagdollEnabled = true -- Use your character instead of hats (NetworkOwner vulnerability)
+		local RagdollHeadMovement = true -- Move your head separately from your body (+9 second wait)
+		local AutoRun = false -- Run script on respawn
+		local AutoRespawn = true -- Kill your real body when your virtual body dies
+		local WearAllAccessories = true -- Use all leftover hats for the head
+		local AccurateHandPosition = true -- Move your Roblox hands according to your real hands
+		local AccessorySettings = {
+			LeftArm = "",
+			RightArm = "",
+			LeftLeg = "",
+			RightLeg = "",
+			Torso = "",
+			Head = true,
+			BlockArms = true,
+			BlockLegs = true,
+			BlockTorso = true,
+			LimbOffset = CFrame.Angles(math.rad(90), 0, 0)
+		}
+		local FootPlacementSettings = {
+			RightOffset = Vector3.new(.5, 0, 0),
+			LeftOffset = Vector3.new(-.5, 0, 0)
+		}
+		--|| Script:
+		local Script = nil
+		Script = function()
+	    --[[
+	 Variables
+	--]]
+			local Players = game:GetService("Players")
+			local Client = Players.LocalPlayer
+			local Character = Client.Character or Client.CharacterAdded:Wait()
+			local WeldBase = Character:WaitForChild("HumanoidRootPart")
+			local ArmBase = Character:FindFirstChild("RightHand") or Character:FindFirstChild("Right Arm") or WeldBase
+			local Backpack = Client:WaitForChild("Backpack")
+			local Mouse = Client:GetMouse()
+			local Camera = workspace.CurrentCamera
+			local VRService = game:GetService("VRService")
+			local VRReady = VRService.VREnabled
+			local UserInputService = game:GetService("UserInputService")
+			local RunService = game:GetService("RunService")
+			local HttpService = game:GetService("HttpService")
+			local StarterGui = game:GetService("StarterGui")
+			local HeadAccessories = {}
+			local UsedAccessories = {}
+			local Pointer = false
+			local Point1 = false
+			local Point2 = false
+			local VirtualRig = game:GetObjects("rbxassetid://4468539481")[1]
+			local VirtualBody = game:GetObjects("rbxassetid://4464983829")[1]
+			local Anchor = Instance.new("Part")
+			Anchor.Anchored = true
+			Anchor.Transparency = 1
+			Anchor.CanCollide = false
+			Anchor.Parent = workspace
+	    --[[
+	    if RagdollEnabled then
+	        print("RagdollEnabled, thank you for using CLOVR!")
+	        local NetworkAccess =
+	            coroutine.create(
+	            function()
+	                settings().Physics.AllowSleep = false
+	                while true do
+	                    game:GetService("RunService").RenderStepped:Wait()
+	                    for _, Players in next, game:GetService("Players"):GetChildren() do
+	                        if Players ~= game:GetService("Players").LocalPlayer then
+	                            Players.MaximumSimulationRadius = 0.1
+	                            Players.SimulationRadius = 0
+	                        end
+	                    end
+	                    game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.pow(math.huge, math.huge)
+	                    game:GetService("Players").LocalPlayer.SimulationRadius = math.huge * math.huge
+	                end
+	            end
+	        )
+	        coroutine.resume(NetworkAccess)
+	    end
+	    ]]
+			StarterGui:SetCore("VRLaserPointerMode", 3)
+	    --[[
+	 Character Protection
+	--]]
+			local CharacterCFrame = WeldBase.CFrame
+			if not RagdollEnabled then
+				Character.Humanoid.AnimationPlayed:Connect(
+					function(Animation)
+						Animation:Stop()
+					end
+				)
+				for _, Track in next, Character.Humanoid:GetPlayingAnimationTracks() do
+					Track:Stop()
+				end
+				if HideCharacter then
+					local Platform = Instance.new("Part")
+					Platform.Anchored = true
+					Platform.Size = Vector3.new(100, 5, 100)
+					Platform.CFrame = CFrame.new(0, 10000, 0)
+					Platform.Transparency = 1
+					Platform.Parent = workspace
+					Character:MoveTo(Platform.Position + Vector3.new(0, 5, 0))
+					wait(.5)
+				end
+				if AnchorCharacter then
+					for _, Part in pairs(Character:GetChildren()) do
+						if Part:IsA("BasePart") then
+							Part.Anchored = true
+						end
+					end
+				end
+			end
+	    --[[
+	 Functions
+	--]]
+			function Tween(Object, Style, Direction, Time, Goal)
+				local tweenInfo = TweenInfo.new(Time, Enum.EasingStyle[Style], Enum.EasingDirection[Direction])
+				local tween = game:GetService("TweenService"):Create(Object, tweenInfo, Goal)
+				tween.Completed:Connect(
+					function()
+						tween:Destroy()
+					end
+				)
+				tween:Play()
+				return tween
+			end
+			local function GetMotorForLimb(Limb)
+				for _, Motor in next, Character:GetDescendants() do
+					if Motor:IsA("Motor6D") and Motor.Part1 == Limb then
+						return Motor
+					end
+				end
+			end
+			local function CreateAlignment(Limb, Part0)
+				local Attachment0 = Instance.new("Attachment", Part0 or Anchor)
+				local Attachment1 = Instance.new("Attachment", Limb)
+				local Orientation = Instance.new("AlignOrientation")
+				local Position = Instance.new("AlignPosition")
+				Orientation.Attachment0 = Attachment1
+				Orientation.Attachment1 = Attachment0
+				Orientation.RigidityEnabled = false
+				Orientation.MaxTorque = 20000
+				Orientation.Responsiveness = 40
+				Orientation.Parent = reanimation["HumanoidRootPart"]
+	
+				Orientation.Name = Limb.Name.."'s AlignRot"
+				Orientation.MaxAngularVelocity = 100
+	
+				Position.Attachment0 = Attachment1
+				Position.Attachment1 = Attachment0
+				Position.RigidityEnabled = false
+				Position.MaxForce = 40000
+				Position.Responsiveness = 40
+				Position.Parent = reanimation["HumanoidRootPart"]
+	
+				Position.Name = Limb.Name.."'s AlignPos"
+				Position.MaxVelocity = 100
+	
+				Limb.Massless = false
+				local Motor = GetMotorForLimb(Limb)
+				if Motor then
+					Motor:Destroy()
+				end
+				return function(CF, Local)
+					if Local then
+						Attachment0.CFrame = CF
+					else
+						Attachment0.WorldCFrame = CF
+					end
+				end
+			end
+			local function GetExtraTool()
+				for _, Tool in next, Character:GetChildren() do
+					if Tool:IsA("Tool") and not Tool.Name:match("LIMB_TOOL") then
+						return Tool
+					end
+				end
+			end
+			local function GetGripForHandle(Handle)
+				for _, Weld in next, Character:GetDescendants() do
+					if Weld:IsA("Weld") and (Weld.Part0 == Handle or Weld.Part1 == Handle) then
+						return Weld
+					end
+				end
+				wait(.2)
+				for _, Weld in next, Character:GetDescendants() do
+					if Weld:IsA("Weld") and (Weld.Part0 == Handle or Weld.Part1 == Handle) then
+						return Weld
+					end
+				end
+			end
+			local function CreateRightGrip(Handle)
+				local RightGrip = Instance.new("Weld")
+				RightGrip.Name = "RightGrip"
+				RightGrip.Part1 = Handle
+				RightGrip.Part0 = WeldBase
+				RightGrip.Parent = WeldBase
+				return RightGrip
+			end
+			local function CreateAccessory(Accessory, DeleteMeshes)
+				if not Accessory then
+					return
+				end
+				local HatAttachment = Accessory.Handle:FindFirstChildWhichIsA("Attachment")
+				local HeadAttachment = VirtualRig:FindFirstChild(HatAttachment.Name, true)
+				local BasePart = HeadAttachment.Parent
+				local HatAtt = HatAttachment.CFrame
+				local HeadAtt = HeadAttachment.CFrame
+				if DeleteMeshes then
+					if Accessory.Handle:FindFirstChild("Mesh") then
+						Accessory.Handle.Mesh:Destroy()
+					end
+				end
+				wait()
+				local Handle = Accessory:WaitForChild("Handle")
+				if Handle:FindFirstChildWhichIsA("Weld", true) then
+					Handle:FindFirstChildWhichIsA("Weld", true):Destroy()
+					Handle:BreakJoints()
+				else
+					Handle:BreakJoints()
+				end
+				Handle.Massless = true
+				Handle.Transparency = 0.5
+				UsedAccessories[Accessory] = true
+				local RightGrip = CreateRightGrip(Handle)
+				wait()
+				for _, Object in pairs(Handle:GetDescendants()) do
+					if not Object:IsA("BasePart") then
+						pcall(
+							function()
+								Object.Transparency = 1
+							end
+						)
+						pcall(
+							function()
+								Object.Enabled = false
+							end
+						)
+					end
+				end
+				return Handle, RightGrip, HatAtt, HeadAtt, BasePart
+			end
+			local function GetHeadAccessories()
+				for _, Accessory in next, Character:GetChildren() do
+					if Accessory:IsA("Accessory") and not UsedAccessories[Accessory] then
+						local Handle, RightGrip, HatAtt, HeadAtt, BasePart = CreateAccessory(Accessory)
+						table.insert(HeadAccessories, {Handle, RightGrip, HatAtt, HeadAtt, BasePart})
+						do
+							Handle.Transparency = 1
+						end
+						if not WearAllAccessories then
+							break
+						end
+					end
+				end
+			end
+	    --[[
+	 VR Replication Setup
+	--]]
+			if not RagdollEnabled then
+				LeftHandle, LeftHandGrip =
+					CreateAccessory(Character:FindFirstChild(AccessorySettings.LeftArm), AccessorySettings.BlockArms)
+				RightHandle, RightHandGrip =
+					CreateAccessory(Character:FindFirstChild(AccessorySettings.RightArm), AccessorySettings.BlockArms)
+				LeftHipHandle, LeftLegGrip =
+					CreateAccessory(Character:FindFirstChild(AccessorySettings.LeftLeg), AccessorySettings.BlockLegs)
+				RightHipHandle, RightLegGrip =
+					CreateAccessory(Character:FindFirstChild(AccessorySettings.RightLeg), AccessorySettings.BlockLegs)
+				TorsoHandle, TorsoGrip =
+					CreateAccessory(Character:FindFirstChild(AccessorySettings.Torso), AccessorySettings.BlockTorso)
+				GetHeadAccessories()
+			elseif RagdollEnabled then
+				if RagdollHeadMovement then
+					Permadeath()
+					MoveHead = CreateAlignment(reanimation["Head"])
+				end
+				MoveRightArm = CreateAlignment(reanimation["Right Arm"])
+				MoveLeftArm = CreateAlignment(reanimation["Left Arm"])
+				MoveRightLeg = CreateAlignment(reanimation["Right Leg"])
+				MoveLeftLeg = CreateAlignment(reanimation["Left Leg"])
+				MoveTorso = CreateAlignment(reanimation["Torso"])
+				MoveRoot = CreateAlignment(reanimation["HumanoidRootPart"])
+				--
+				if RagdollHeadMovement then
+					for _, Accessory in next, reanimation:GetChildren() do
+						if Accessory:IsA("Accessory") and Accessory:FindFirstChild("Handle") then
+							local Attachment1 = Accessory.Handle:FindFirstChildWhichIsA("Attachment")
+							local Attachment0 = reanimation:FindFirstChild(tostring(Attachment1), true)
+							local Orientation = Instance.new("AlignOrientation")
+							local Position = Instance.new("AlignPosition")
+							print(Attachment1, Attachment0, Accessory)
+	
+							Orientation.Attachment0 = Attachment1
+							Orientation.Attachment1 = Attachment0
+							Orientation.RigidityEnabled = false
+							Orientation.ReactionTorqueEnabled = true
+							Orientation.MaxTorque = 20000
+							Orientation.Responsiveness = 40
+							Orientation.Parent = reanimation["Head"]
+	
+							Position.Attachment0 = Attachment1
+							Position.Attachment1 = Attachment0
+							Position.RigidityEnabled = false
+							Position.ReactionForceEnabled = true
+							Position.MaxForce = 40000
+							Position.Responsiveness = 40
+							Position.Parent = reanimation["Head"]
+						end
+					end
+				end
+	
+			end
+	    --[[
+	 Movement
+	--]]
+			VirtualRig.Name = "VirtualRig"
+			VirtualRig.RightFoot.BodyPosition.Position = CharacterCFrame.p
+			VirtualRig.LeftFoot.BodyPosition.Position = CharacterCFrame.p
+			VirtualRig.Parent = workspace
+			VirtualRig:SetPrimaryPartCFrame(CharacterCFrame)
+			VirtualRig.Humanoid.Health = 0
+			--VirtualRig:FindFirstChild("HumanoidRootPart").CFrame = character1.HumanoidRootPart.CFrame
+			VirtualRig:BreakJoints()
+			for i,v in pairs(VirtualRig:GetChildren()) do
+				if v:IsA("BasePart") then
+					v.CFrame = character1.HumanoidRootPart.CFrame
+				end
+			end
+			--
+			VirtualBody.Parent = workspace
+			VirtualBody.Name = "VirtualBody"
+			VirtualBody.Humanoid.WalkSpeed = 8
+			VirtualBody.Humanoid.CameraOffset = Vector3.new(0, StudsOffset, 0)
+			VirtualBody:SetPrimaryPartCFrame(CharacterCFrame)
+			VirtualBody.Humanoid.Died:Connect(
+				function()
+					print("Virtual death")
+					if AutoRespawn then
+						Character:BreakJoints()
+						if RagdollHeadMovement and RagdollEnabled then
+							--Network:Unclaim()
+							Respawn()
+						end
+					end
+				end
+			)
+			--
+			Camera.CameraSubject = VirtualBody.Humanoid
+			Character.Humanoid.WalkSpeed = 0
+			Character.Humanoid.JumpPower = 1
+			for _, Part in next, VirtualBody:GetChildren() do
+				if Part:IsA("BasePart") then
+					Part.Transparency = 1
+				end
+			end
+			for _, Part in next, VirtualRig:GetChildren() do
+				if Part:IsA("BasePart") then
+					Part.Transparency = 1
+				end
+			end
+			if not VRReady then
+				VirtualRig.RightUpperArm.ShoulderConstraint.RigidityEnabled = true
+				VirtualRig.LeftUpperArm.ShoulderConstraint.RigidityEnabled = true
+			end
+			local OnMoving =
+				RunService.Stepped:Connect(
+					function()
+						local Direction = Character.Humanoid.MoveDirection
+						local Start = VirtualBody.HumanoidRootPart.Position
+						local Point = Start + Direction * 6
+						VirtualBody.Humanoid:MoveTo(Point)
+					end
+				)
+			Character.Humanoid.Jumping:Connect(
+				function()
+					VirtualBody.Humanoid.Jump = true
+				end
+			)
+			UserInputService.JumpRequest:Connect(
+				function()
+					VirtualBody.Humanoid.Jump = true
+				end
+			)
+	    --[[
+	 VR Replication
+	--]]
+			if RagdollEnabled then
+				for _, Part in pairs(Character:GetDescendants()) do
+					if Part:IsA("BasePart") and Part.Name == "Handle" and Part.Parent:IsA("Accessory") then
+						Part.LocalTransparencyModifier = 1
+					elseif Part:IsA("BasePart") and Part.Transparency < 0.5 and Part.Name ~= "Head" then
+						Part.LocalTransparencyModifier = bodyTransparency
+					elseif Part:IsA("BasePart") and Part.Name == "Head" then
+						Part.LocalTransparencyModifier = 1
+					end
+					if not Part:IsA("BasePart") and not Part:IsA("AlignPosition") and not Part:IsA("AlignOrientation") then
+						pcall(
+							function()
+								Part.Transparency = 1
+							end
+						)
+						pcall(
+							function()
+								Part.Enabled = false
+							end
+						)
+					end
+				end
+			end
+			local FootUpdateDebounce = tick()
+			local function FloorRay(Part, Distance)
+				local Position = Part.CFrame.p
+				local Target = Position - Vector3.new(0, Distance, 0)
+				local Line = Ray.new(Position, (Target - Position).Unit * Distance)
+				local FloorPart, FloorPosition, FloorNormal =
+					workspace:FindPartOnRayWithIgnoreList(Line, {VirtualRig, VirtualBody, Character})
+				if FloorPart then
+					return FloorPart, FloorPosition, FloorNormal, (FloorPosition - Position).Magnitude
+				else
+					return nil, Target, Vector3.new(), Distance
+				end
+			end
+			local function Flatten(CF)
+				local X, Y, Z = CF.X, CF.Y, CF.Z
+				local LX, LZ = CF.lookVector.X, CF.lookVector.Z
+				return CFrame.new(X, Y, Z) * CFrame.Angles(0, math.atan2(LX, LZ), 0)
+			end
+			local FootTurn = 1
+			local function FootReady(Foot, Target)
+				local MaxDist
+				if Character.Humanoid.MoveDirection.Magnitude > 0 then
+					MaxDist = .5
+				else
+					MaxDist = 1
+				end
+				local PastThreshold = (Foot.Position - Target.Position).Magnitude > MaxDist
+				local PastTick = tick() - FootUpdateDebounce >= 2
+				if PastThreshold or PastTick then
+					FootUpdateDebounce = tick()
+				end
+				return PastThreshold or PastTick
+			end
+			local function FootYield()
+				local RightFooting = VirtualRig.RightFoot.BodyPosition
+				local LeftFooting = VirtualRig.LeftFoot.BodyPosition
+				local LowerTorso = VirtualRig.LowerTorso
+				local Yield = tick()
+				repeat
+					RunService.Stepped:Wait()
+					if
+						(LowerTorso.Position - RightFooting.Position).Y > 4 or
+						(LowerTorso.Position - LeftFooting.Position).Y > 4 or
+						((LowerTorso.Position - RightFooting.Position) * Vector3.new(1, 0, 1)).Magnitude > 4 or
+						((LowerTorso.Position - LeftFooting.Position) * Vector3.new(1, 0, 1)).Magnitude > 4
+					then
+						break
+					end
+				until tick() - Yield >= .17
+			end
+			local function UpdateFooting()
+				if not VirtualRig:FindFirstChild("LowerTorso") then
+					wait()
+					return
+				end
+				local Floor, FloorPosition, FloorNormal, Dist = FloorRay(VirtualRig.LowerTorso, 3)
+				Dist = math.clamp(Dist, 0, 5)
+				local FootTarget =
+					VirtualRig.LowerTorso.CFrame * CFrame.new(FootPlacementSettings.RightOffset) - Vector3.new(0, Dist, 0) +
+					Character.Humanoid.MoveDirection * (VirtualBody.Humanoid.WalkSpeed / 8) * 2
+				if FootReady(VirtualRig.RightFoot, FootTarget) then
+					VirtualRig.RightFoot.BodyPosition.Position = FootTarget.p
+					VirtualRig.RightFoot.BodyGyro.CFrame = Flatten(VirtualRig.LowerTorso.CFrame)
+				end
+				FootYield()
+				local FootTarget =
+					VirtualRig.LowerTorso.CFrame * CFrame.new(FootPlacementSettings.LeftOffset) - Vector3.new(0, Dist, 0) +
+					Character.Humanoid.MoveDirection * (VirtualBody.Humanoid.WalkSpeed / 8) * 2
+				if FootReady(VirtualRig.LeftFoot, FootTarget) then
+					VirtualRig.LeftFoot.BodyPosition.Position = FootTarget.p
+					VirtualRig.LeftFoot.BodyGyro.CFrame = Flatten(VirtualRig.LowerTorso.CFrame)
+				end
+			end
+			local function UpdateTorsoPosition()
+				if not RagdollEnabled then
+					if TorsoHandle then
+						local Positioning = VirtualRig.UpperTorso.CFrame
+						if not TorsoGrip or not TorsoGrip.Parent then
+							TorsoGrip = CreateRightGrip(TorsoHandle)
+						end
+						local Parent = TorsoGrip.Parent
+						TorsoGrip.C1 = CFrame.new()
+						TorsoGrip.C0 =
+							TorsoGrip.C0:Lerp(
+								WeldBase.CFrame:ToObjectSpace(Positioning * CFrame.new(0, -0.25, 0) * AccessorySettings.LimbOffset),
+								Smoothness
+							)
+						TorsoGrip.Parent = nil
+						TorsoGrip.Parent = Parent
+					end
+				else
+					local Positioning = VirtualRig.UpperTorso.CFrame
+					MoveTorso(Positioning * CFrame.new(0, -0.25, 0))
+					MoveRoot(Positioning * CFrame.new(0, -0.25, 0))
+				end
+			end
+			local function UpdateLegPosition()
+				if not RagdollEnabled then
+					if RightHipHandle then
+						local Positioning =
+							VirtualRig.RightLowerLeg.CFrame:Lerp(VirtualRig.RightFoot.CFrame, 0.5) + Vector3.new(0, 0.5, 0)
+						if not RightHipHandle or not RightHipHandle.Parent then
+							RightLegGrip = CreateRightGrip(RightHipHandle)
+						end
+						local Parent = RightLegGrip.Parent
+						RightLegGrip.C1 = CFrame.new()
+						RightLegGrip.C0 =
+							RightLegGrip.C0:Lerp(
+								WeldBase.CFrame:ToObjectSpace(Positioning * AccessorySettings.LimbOffset),
+								Smoothness
+							)
+						RightLegGrip.Parent = nil
+						RightLegGrip.Parent = Parent
+					end
+					if LeftHipHandle then
+						local Positioning =
+							VirtualRig.LeftLowerLeg.CFrame:Lerp(VirtualRig.LeftFoot.CFrame, 0.5) + Vector3.new(0, 0.5, 0)
+						if not LeftLegGrip or not LeftLegGrip.Parent then
+							LeftLegGrip = CreateRightGrip(LeftHipHandle)
+						end
+						local Parent = LeftLegGrip.Parent
+						LeftLegGrip.C1 = CFrame.new()
+						LeftLegGrip.C0 =
+							LeftLegGrip.C0:Lerp(
+								WeldBase.CFrame:ToObjectSpace(Positioning * AccessorySettings.LimbOffset),
+								Smoothness
+							)
+						LeftLegGrip.Parent = nil
+						LeftLegGrip.Parent = Parent
+					end
+				else
+					do
+						local Positioning =
+							VirtualRig.RightLowerLeg.CFrame:Lerp(VirtualRig.RightFoot.CFrame, 0.5) *
+							CFrame.Angles(0, math.rad(180), 0) +
+							Vector3.new(0, 0.5, 0)
+						MoveRightLeg(Positioning)
+					end
+					do
+						local Positioning =
+							VirtualRig.LeftLowerLeg.CFrame:Lerp(VirtualRig.LeftFoot.CFrame, 0.5) *
+							CFrame.Angles(0, math.rad(180), 0) +
+							Vector3.new(0, 0.5, 0)
+						MoveLeftLeg(Positioning)
+					end
+				end
+			end
+			warn("VRReady is", VRReady)
+			local function OnUserCFrameChanged(UserCFrame, Positioning, IgnoreTorso)
+				local Positioning = Camera.CFrame * Positioning
+				if not IgnoreTorso then
+					UpdateTorsoPosition()
+					UpdateLegPosition()
+				end
+				if not RagdollEnabled then
+					if UserCFrame == Enum.UserCFrame.Head and AccessorySettings.Head then
+						for _, Table in next, HeadAccessories do
+							local Handle, RightGrip, HatAtt, HeadAtt, BasePart = unpack(Table)
+							local LocalPositioning = Positioning
+							if not RightGrip or not RightGrip.Parent then
+								RightGrip = CreateRightGrip(Handle)
+								Table[2] = RightGrip
+							end
+							local Parent = RightGrip.Parent
+							if BasePart then
+								LocalPositioning = BasePart.CFrame * HeadAtt
+							end
+							RightGrip.C1 = HatAtt
+							RightGrip.C0 = RightGrip.C0:Lerp(WeldBase.CFrame:ToObjectSpace(LocalPositioning), Smoothness)
+							RightGrip.Parent = nil
+							RightGrip.Parent = Parent
+						end
+					elseif RightHandle and UserCFrame == Enum.UserCFrame.RightHand and AccessorySettings.RightArm then
+						local HandPosition = Positioning
+						local LocalPositioning = Positioning
+						if not RightHandGrip or not RightHandGrip.Parent then
+							RightHandGrip = CreateRightGrip(RightHandle)
+						end
+						if AccurateHandPosition then
+							HandPosition = HandPosition * CFrame.new(0, 0, 1)
+						end
+						if not VRReady then
+							local HeadRotation = Camera.CFrame - Camera.CFrame.p
+							HandPosition =
+								VirtualRig.RightUpperArm.CFrame:Lerp(VirtualRig.RightLowerArm.CFrame, 0.5) *
+								AccessorySettings.LimbOffset
+							--LocalPositioning = (HeadRotation + (HandPosition * CFrame.new(0, 0, 1)).p) * CFrame.Angles(math.rad(-45), 0, 0)
+							LocalPositioning = HandPosition * CFrame.new(0, 0, 1) * CFrame.Angles(math.rad(-180), 0, 0)
+							if Point2 then
+								VirtualRig.RightUpperArm.Aim.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+								VirtualRig.RightUpperArm.Aim.CFrame = Camera.CFrame * AccessorySettings.LimbOffset
+							elseif VirtualRig.RightUpperArm.Aim.MaxTorque ~= Vector3.new(0, 0, 0) then
+								VirtualRig.RightUpperArm.Aim.MaxTorque = Vector3.new(0, 0, 0)
+							end
+						elseif AccurateHandPosition then
+							LocalPositioning = HandPosition
+						end
+						local Parent = RightHandGrip.Parent
+						RightHandGrip.C1 = CFrame.new()
+						RightHandGrip.C0 = RightHandGrip.C0:Lerp(WeldBase.CFrame:ToObjectSpace(HandPosition), Smoothness)
+						RightHandGrip.Parent = nil
+						RightHandGrip.Parent = Parent
+						--
+						local EquippedTool = GetExtraTool()
+						if EquippedTool and EquippedTool:FindFirstChild("Handle") then
+							local EquippedGrip = GetGripForHandle(EquippedTool.Handle)
+							local Parent = EquippedGrip.Parent
+							local ArmBaseCFrame = ArmBase.CFrame
+							if ArmBase.Name == "Right Arm" then
+								ArmBaseCFrame = ArmBaseCFrame
+							end
+							EquippedGrip.C1 = EquippedTool.Grip
+							EquippedGrip.C0 = EquippedGrip.C0:Lerp(ArmBaseCFrame:ToObjectSpace(LocalPositioning), Smoothness)
+							EquippedGrip.Parent = nil
+							EquippedGrip.Parent = Parent
+						end
+					elseif LeftHandle and UserCFrame == Enum.UserCFrame.LeftHand and AccessorySettings.LeftArm then
+						local HandPosition = Positioning
+						if not LeftHandGrip or not LeftHandGrip.Parent then
+							LeftHandGrip = CreateRightGrip(LeftHandle)
+						end
+						if AccurateHandPosition then
+							HandPosition = HandPosition * CFrame.new(0, 0, 1)
+						end
+						if not VRReady then
+							HandPosition =
+								VirtualRig.LeftUpperArm.CFrame:Lerp(VirtualRig.LeftLowerArm.CFrame, 0.5) *
+								AccessorySettings.LimbOffset
+							--warn("Setting HandPosition to hands")
+							if Point1 then
+								VirtualRig.LeftUpperArm.Aim.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+								VirtualRig.LeftUpperArm.Aim.CFrame = Camera.CFrame * AccessorySettings.LimbOffset
+							elseif VirtualRig.LeftUpperArm.Aim.MaxTorque ~= Vector3.new(0, 0, 0) then
+								VirtualRig.LeftUpperArm.Aim.MaxTorque = Vector3.new(0, 0, 0)
+							end
+						end
+						local Parent = LeftHandGrip.Parent
+						LeftHandGrip.C1 = CFrame.new()
+						LeftHandGrip.C0 = LeftHandGrip.C0:Lerp(WeldBase.CFrame:ToObjectSpace(HandPosition), Smoothness)
+						LeftHandGrip.Parent = nil
+						LeftHandGrip.Parent = Parent
+					end
+				end
+				if RagdollEnabled then
+					if UserCFrame == Enum.UserCFrame.Head and RagdollHeadMovement then
+						MoveHead(Positioning)
+					elseif UserCFrame == Enum.UserCFrame.RightHand then
+						local Positioning = Positioning
+						if not VRReady then
+							Positioning = VirtualRig.RightUpperArm.CFrame:Lerp(VirtualRig.RightLowerArm.CFrame, 0.5)
+						elseif AccurateHandPosition then
+							Positioning = Positioning * CFrame.new(0, 0, 1)
+						end
+						if VRReady then
+							Positioning = Positioning * AccessorySettings.LimbOffset
+						end
+						MoveRightArm(Positioning)
+						if Point2 then
+							VirtualRig.RightUpperArm.Aim.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+							VirtualRig.RightUpperArm.Aim.CFrame = Camera.CFrame * AccessorySettings.LimbOffset
+						elseif VirtualRig.RightUpperArm.Aim.MaxTorque ~= Vector3.new(0, 0, 0) then
+							VirtualRig.RightUpperArm.Aim.MaxTorque = Vector3.new(0, 0, 0)
+						end
+					elseif UserCFrame == Enum.UserCFrame.LeftHand then
+						local Positioning = Positioning
+						if not VRReady then
+							Positioning = VirtualRig.LeftUpperArm.CFrame:Lerp(VirtualRig.LeftLowerArm.CFrame, 0.5)
+						elseif AccurateHandPosition then
+							Positioning = Positioning * CFrame.new(0, 0, 1)
+						end
+						if VRReady then
+							Positioning = Positioning * AccessorySettings.LimbOffset
+						end
+						MoveLeftArm(Positioning)
+						if Point1 then
+							VirtualRig.LeftUpperArm.Aim.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+							VirtualRig.LeftUpperArm.Aim.CFrame = Camera.CFrame * AccessorySettings.LimbOffset
+						elseif VirtualRig.LeftUpperArm.Aim.MaxTorque ~= Vector3.new(0, 0, 0) then
+							VirtualRig.LeftUpperArm.Aim.MaxTorque = Vector3.new(0, 0, 0)
+						end
+					end
+				end
+				if UserCFrame == Enum.UserCFrame.Head then
+					VirtualRig.Head.CFrame = Positioning
+				elseif UserCFrame == Enum.UserCFrame.RightHand and VRReady then
+					VirtualRig.RightHand.CFrame = Positioning
+				elseif UserCFrame == Enum.UserCFrame.LeftHand and VRReady then
+					VirtualRig.LeftHand.CFrame = Positioning
+				end
+				if not VRReady and VirtualRig.LeftHand.Anchored then
+					VirtualRig.RightHand.Anchored = false
+					VirtualRig.LeftHand.Anchored = false
+				elseif VRReady and not VirtualRig.LeftHand.Anchored then
+					VirtualRig.RightHand.Anchored = true
+					VirtualRig.LeftHand.Anchored = true
+				end
+			end
+			local CFrameChanged = VRService.UserCFrameChanged:Connect(OnUserCFrameChanged)
+			local OnStepped =
+				RunService.Stepped:Connect(
+					function()
+						for _, Part in pairs(VirtualRig:GetChildren()) do
+						if Part:IsA("BasePart") then
+							Part.CanCollide = false
+						end
+					end
+						if RagdollEnabled then
+						for _, Part in pairs(Character:GetChildren()) do
+							if Part:IsA("BasePart") then
+								Part.CanCollide = false
+							end
+						end
+					end
+						if NoCollision then
+						for _, Player in pairs(Players:GetPlayers()) do
+							if Player ~= Client and Player.Character then
+								local Descendants = Player.Character:GetDescendants()
+								for i = 1, #Descendants do
+									local Part = Descendants[i]
+									if Part:IsA("BasePart") then
+										Part.CanCollide = false
+										Part.Velocity = Vector3.new()
+										Part.RotVelocity = Vector3.new()
+									end
+								end
+							end
+						end
+					end
+					end
+				)
+			local OnRenderStepped =
+				RunService.Stepped:Connect(
+					function()
+						Camera.CameraSubject = VirtualBody.Humanoid
+						if RagdollEnabled then
+						Character.HumanoidRootPart.CFrame = VirtualRig.UpperTorso.CFrame
+						--Character.HumanoidRootPart.Velocity = Vector3.new(0, 0, 0)
+					end
+						if not VRReady then
+						OnUserCFrameChanged(Enum.UserCFrame.Head, CFrame.new(0, 0, 0))
+						OnUserCFrameChanged(Enum.UserCFrame.RightHand, CFrame.new(0, 0, 0), true)
+						OnUserCFrameChanged(Enum.UserCFrame.LeftHand, CFrame.new(0, 0, 0), true)
+					end
+					end
+				)
+			spawn(
+				function()
+					while Character and Character.Parent do
+						FootYield()
+						UpdateFooting()
+					end
+				end
+			)
+	    --[[
+	 Non-VR Support + VR Mechanics
+	--]]
+			local OnInput =
+				UserInputService.InputBegan:Connect(
+					function(Input, Processed)
+						if not Processed then
+						if Input.KeyCode == Enum.KeyCode.LeftControl or Input.KeyCode == Enum.KeyCode.ButtonL2 then
+							Tween(
+								VirtualBody.Humanoid,
+								"Elastic",
+								"Out",
+								1,
+								{
+									CameraOffset = Vector3.new(0, StudsOffset - 1.5, 0)
+								}
+							)
+						end
+						if Input.KeyCode == Enum.KeyCode.X then
+							if RagdollEnabled and RagdollHeadMovement then
+								--Network:Unclaim()
+								Respawn()
+							end
+						end
+						if Input.KeyCode == Enum.KeyCode.C then
+							VirtualBody:MoveTo(Mouse.Hit.p)
+							VirtualRig:MoveTo(Mouse.Hit.p)
+						end
+					end
+						if Input.KeyCode == Enum.KeyCode.LeftShift or Input.KeyCode == Enum.KeyCode.ButtonR2 then
+						Tween(
+							VirtualBody.Humanoid,
+							"Sine",
+							"Out",
+							1,
+							{
+								WalkSpeed = 16
+							}
+						)
+					end
+						if not VRReady and Input.UserInputType == Enum.UserInputType.MouseButton1 then
+						Point1 = true
+					end
+						if not VRReady and Input.UserInputType == Enum.UserInputType.MouseButton2 then
+						Point2 = true
+					end
+						if VRReady and Input.KeyCode == Enum.KeyCode.ButtonY then
+						Character:BreakJoints()
+						if RagdollEnabled and RagdollHeadMovement then
+							--Network:Unclaim()
+							Respawn()
+						end
+					end
+					end
+				)
+			local OnInputEnded =
+				UserInputService.InputEnded:Connect(
+					function(Input, Processed)
+						if not Processed then
+						if Input.KeyCode == Enum.KeyCode.LeftControl or Input.KeyCode == Enum.KeyCode.ButtonL2 then
+							Tween(
+								VirtualBody.Humanoid,
+								"Elastic",
+								"Out",
+								1,
+								{
+									CameraOffset = Vector3.new(0, StudsOffset, 0)
+								}
+							)
+						end
+					end
+						if Input.KeyCode == Enum.KeyCode.LeftShift or Input.KeyCode == Enum.KeyCode.ButtonR2 then
+						Tween(
+							VirtualBody.Humanoid,
+							"Sine",
+							"Out",
+							1,
+							{
+								WalkSpeed = 8
+							}
+						)
+					end
+						if not VRReady and Input.UserInputType == Enum.UserInputType.MouseButton1 then
+						Point1 = false
+					end
+						if not VRReady and Input.UserInputType == Enum.UserInputType.MouseButton2 then
+						Point2 = false
+					end
+					end
+				)
+	    --[[
+	 Proper Cleanup
+	--]]
+			local OnReset
+			OnReset =
+				Client.CharacterAdded:Connect(
+					function()
+						OnReset:Disconnect()
+						CFrameChanged:Disconnect()
+						OnStepped:Disconnect()
+						OnRenderStepped:Disconnect()
+						OnMoving:Disconnect()
+						OnInput:Disconnect()
+						OnInputEnded:Disconnect()
+						VirtualRig:Destroy()
+						VirtualBody:Destroy()
+						if RagdollEnabled then
+						--Network:Unclaim()
+					end
+						if AutoRun then
+						delay(
+							2,
+							function()
+								Script()
+							end
+						)
+					end
+					end
+				)
+			if ChatEnabled then
+				spawn(ChatHUDFunc)
+			end
+			if ViewportEnabled then
+				spawn(ViewHUDFunc)
+			end
+			do
+	        --[[
+	 Functions
+	 --]]
+				local Players = game:GetService("Players")
+				local Client = Players.LocalPlayer
+				local VRService = game:GetService("VRService")
+				local VRReady = VRService.VREnabled
+				local UserInputService = game:GetService("UserInputService")
+				local RunService = game:GetService("RunService")
+				local Camera = workspace.CurrentCamera
+	        --[[
+	 Code
+	 --]]
+				if VRReady then
+					local Pointer = game:GetObjects("rbxassetid://4476173280")[1]
+					Pointer.Parent = workspace
+					Pointer.Beam.Enabled = false
+					Pointer.Target.ParticleEmitter.Enabled = false
+					local RenderStepped =
+						RunService.RenderStepped:Connect(
+							function()
+								if Pointer.Beam.Enabled then
+								local RightHand = Camera.CFrame * VRService:GetUserCFrame(Enum.UserCFrame.RightHand)
+								local Target = RightHand * CFrame.new(0, 0, -10)
+								local Line = Ray.new(RightHand.p, (Target.p - RightHand.p).Unit * 128)
+								local Part, Position =
+									workspace:FindPartOnRayWithIgnoreList(Line, {VirtualRig, VirtualBody, Character, Pointer})
+								local Distance = (Position - RightHand.p).Magnitude
+								Pointer.Target.Position = Vector3.new(0, 0, -Distance)
+								Pointer.CFrame = RightHand
+							end
+							end
+						)
+					local Input =
+						UserInputService.InputBegan:Connect(
+							function(Input)
+								if Input.KeyCode == Enum.KeyCode.ButtonB then
+								Pointer.Beam.Enabled = not Pointer.Beam.Enabled
+								Pointer.Target.ParticleEmitter.Enabled = not Pointer.Target.ParticleEmitter.Enabled
+							end
+							end
+						)
+					--
+					local CharacterAdded
+					CharacterAdded =
+						Client.CharacterAdded:Connect(
+							function()
+								RenderStepped:Disconnect()
+								Input:Disconnect()
+								CharacterAdded:Disconnect()
+								Pointer:Destroy()
+								Pointer = nil
+							end
+						)
+				else
+					return
+				end
+			end
+		end
+		Permadeath = function()
+			local ch = game.Players.LocalPlayer.Character
+			local prt = Instance.new("Model", workspace)
+			local z1 = Instance.new("Part", prt)
+			z1.Name = "Torso"
+			z1.CanCollide = false
+			z1.Anchored = true
+			local z2 = Instance.new("Part", prt)
+			z2.Name = "Head"
+			z2.Anchored = true
+			z2.CanCollide = false
+			local z3 = Instance.new("Humanoid", prt)
+			z3.Name = "Humanoid"
+			z1.Position = Vector3.new(0, 9999, 0)
+			z2.Position = Vector3.new(0, 9991, 0)
+			game.Players.LocalPlayer.Character = prt
+			wait(game.Players.RespawnTime/2)
+			warn("50%")
+			game.Players.LocalPlayer.Character = ch
+			wait(game.Players.RespawnTime/2 + 0.5)
+			warn("100%")
+		end
+		Respawn = function()
+			local ch = game.Players.LocalPlayer.Character
+			local prt = Instance.new("Model", workspace)
+			local z1 = Instance.new("Part", prt)
+			z1.Name = "Torso"
+			z1.CanCollide = false
+			z1.Anchored = true
+			local z2 = Instance.new("Part", prt)
+			z2.Name = "Head"
+			z2.Anchored = true
+			z2.CanCollide = false
+			local z3 = Instance.new("Humanoid", prt)
+			z3.Name = "Humanoid"
+			z1.Position = Vector3.new(0, 9999, 0)
+			z2.Position = Vector3.new(0, 9991, 0)
+			game.Players.LocalPlayer.Character = prt
+			wait(game.Players.RespawnTime)
+			game.Players.LocalPlayer.Character = ch
+		end
+		ChatHUDFunc = function()
+	    --[[
+	 Variables
+	 --]]
+			local UserInputService = game:GetService("UserInputService")
+			local RunService = game:GetService("RunService")
+			local VRService = game:GetService("VRService")
+			local VRReady = VRService.VREnabled
+			local Players = game:GetService("Players")
+			local Client = Players.LocalPlayer
+			local ChatHUD = game:GetObjects("rbxassetid://4476067885")[1]
+			local GlobalFrame = ChatHUD.GlobalFrame
+			local Template = GlobalFrame.Template
+			local LocalFrame = ChatHUD.LocalFrame
+			local Global = ChatHUD.Global
+			local Local = ChatHUD.Local
+			local Camera = workspace.CurrentCamera
+			Template.Parent = nil
+			ChatHUD.Parent = game:GetService("CoreGui")
+	    --[[
+	 Code
+	 --]]
+			local Highlight = Global.Frame.BackgroundColor3
+			local Deselected = Local.Frame.BackgroundColor3
+			local OpenGlobalTab = function()
+				Global.Frame.BackgroundColor3 = Highlight
+				Local.Frame.BackgroundColor3 = Deselected
+				Global.Font = Enum.Font.SourceSansBold
+				Local.Font = Enum.Font.SourceSans
+				GlobalFrame.Visible = true
+				LocalFrame.Visible = false
+			end
+			local OpenLocalTab = function()
+				Global.Frame.BackgroundColor3 = Deselected
+				Local.Frame.BackgroundColor3 = Highlight
+				Global.Font = Enum.Font.SourceSans
+				Local.Font = Enum.Font.SourceSansBold
+				GlobalFrame.Visible = false
+				LocalFrame.Visible = true
+			end
+			Global.MouseButton1Down:Connect(OpenGlobalTab)
+			Local.MouseButton1Down:Connect(OpenLocalTab)
+			Global.MouseButton1Click:Connect(OpenGlobalTab)
+			Local.MouseButton1Click:Connect(OpenLocalTab)
+			OpenLocalTab()
+			--
+			local function GetPlayerDistance(Sender)
+				if Sender.Character and Sender.Character:FindFirstChild("Head") then
+					return math.floor((Sender.Character.Head.Position - Camera:GetRenderCFrame().p).Magnitude + 0.5)
+				end
+			end
+			local function NewGlobal(Message, Sender, Color)
+				local Frame = Template:Clone()
+				Frame.Text = ("[%s]: %s"):format(Sender.Name, Message)
+				Frame.User.Text = ("[%s]:"):format(Sender.Name)
+				Frame.User.TextColor3 = Color
+				Frame.BackgroundColor3 = Color
+				Frame.Parent = GlobalFrame
+				delay(
+					60,
+					function()
+						Frame:Destroy()
+					end
+				)
+			end
+			local function NewLocal(Message, Sender, Color, Dist)
+				local Frame = Template:Clone()
+				Frame.Text = ("(%s) [%s]: %s"):format(tostring(Dist), Sender.Name, Message)
+				Frame.User.Text = ("(%s) [%s]:"):format(tostring(Dist), Sender.Name)
+				Frame.User.TextColor3 = Color
+				Frame.BackgroundColor3 = Color
+				Frame.Parent = LocalFrame
+				delay(
+					60,
+					function()
+						Frame:Destroy()
+					end
+				)
+			end
+			local function OnNewChat(Message, Sender, Color)
+				if not ChatHUD or not ChatHUD.Parent then
+					return
+				end
+				NewGlobal(Message, Sender, Color)
+				local Distance = GetPlayerDistance(Sender)
+				if Distance and Distance <= ChatLocalRange then
+					NewLocal(Message, Sender, Color, Distance)
+				end
+			end
+			local function OnPlayerAdded(Player)
+				if not ChatHUD or not ChatHUD.Parent then
+					return
+				end
+				local Color = BrickColor.Random().Color
+				Player.Chatted:Connect(
+					function(Message)
+						OnNewChat(Message, Player, Color)
+					end
+				)
+			end
+			Players.PlayerAdded:Connect(OnPlayerAdded)
+			for _, Player in pairs(Players:GetPlayers()) do
+				OnPlayerAdded(Player)
+			end
+			--
+			local ChatPart = ChatHUD.Part
+			ChatHUD.Adornee = ChatPart
+			if VRReady then
+				ChatHUD.Parent = game:GetService("CoreGui")
+				ChatHUD.Enabled = true
+				ChatHUD.AlwaysOnTop = true
+				local OnInput =
+					UserInputService.InputBegan:Connect(
+						function(Input, Processed)
+							if not Processed then
+							if Input.KeyCode == Enum.KeyCode.ButtonX then
+								ChatHUD.Enabled = not ChatHUD.Enabled
+							end
+						end
+						end
+					)
+				local RenderStepped =
+					RunService.RenderStepped:Connect(
+						function()
+							local LeftHand = VRService:GetUserCFrame(Enum.UserCFrame.LeftHand)
+							ChatPart.CFrame = Camera.CFrame * LeftHand
+						end
+					)
+				local CharacterAdded
+				CharacterAdded =
+					Client.CharacterAdded:Connect(
+						function()
+							OnInput:Disconnect()
+							RenderStepped:Disconnect()
+							CharacterAdded:Disconnect()
+							ChatHUD:Destroy()
+							ChatHUD = nil
+						end
+					)
+			end
+			wait(9e9)
+		end
+		ViewHUDFunc = function()
+	    --[[
+	 Variables
+	 --]]
+			local ViewportRange = ViewportRange or 32
+			local UserInputService = game:GetService("UserInputService")
+			local RunService = game:GetService("RunService")
+			local VRService = game:GetService("VRService")
+			local VRReady = VRService.VREnabled
+			local Players = game:GetService("Players")
+			local Client = Players.LocalPlayer
+			local Mouse = Client:GetMouse()
+			local Camera = workspace.CurrentCamera
+			local CameraPort = Camera.CFrame
+			local ViewHUD = script:FindFirstChild("ViewHUD") or game:GetObjects("rbxassetid://4480405425")[1]
+			local Viewport = ViewHUD.Viewport
+			local Viewcam = Instance.new("Camera")
+			local ViewPart = ViewHUD.Part
+			ViewHUD.Parent = game:GetService("CoreGui")
+			Viewcam.Parent = Viewport
+			Viewcam.CameraType = Enum.CameraType.Scriptable
+			Viewport.CurrentCamera = Viewcam
+			Viewport.BackgroundTransparency = 1
+	    --[[
+	 Code
+	 --]]
+			local function Clone(Character)
+				local Arc = Character.Archivable
+				local Clone
+				Character.Archivable = true
+				Clone = Character:Clone()
+				Character.Archivable = Arc
+				return Clone
+			end
+			local function GetPart(Name, Parent, Descendants)
+				for i = 1, #Descendants do
+					local Part = Descendants[i]
+					if Part.Name == Name and Part.Parent.Name == Parent then
+						return Part
+					end
+				end
+			end
+			local function OnPlayerAdded(Player)
+				if not ViewHUD or not ViewHUD.Parent then
+					return
+				end
+				local function CharacterAdded(Character)
+					if not ViewHUD or not ViewHUD.Parent then
+						return
+					end
+					Character:WaitForChild("Head")
+					Character:WaitForChild("Humanoid")
+					wait(3)
+					local FakeChar = Clone(Character)
+					local Root = FakeChar:FindFirstChild("HumanoidRootPart") or FakeChar:FindFirstChild("Head")
+					local RenderConnection
+					local Descendants = FakeChar:GetDescendants()
+					local RealDescendants = Character:GetDescendants()
+					local Correspondents = {}
+					FakeChar.Humanoid.DisplayDistanceType = "None"
+					for i = 1, #Descendants do
+						local Part = Descendants[i]
+						local Real = Part:IsA("BasePart") and GetPart(Part.Name, Part.Parent.Name, RealDescendants)
+						if Part:IsA("BasePart") and Real then
+							Part.Anchored = true
+							Part:BreakJoints()
+							if Part.Parent:IsA("Accessory") then
+								Part.Transparency = 0
+							end
+							table.insert(Correspondents, {Part, Real})
+						end
+					end
+					RenderConnection =
+						RunService.RenderStepped:Connect(
+							function()
+								if not Character or not Character.Parent then
+								RenderConnection:Disconnect()
+								FakeChar:Destroy()
+								return
+							end
+								if
+								(Root and (Root.Position - Camera.CFrame.p).Magnitude <= ViewportRange) or Player == Client or
+								not Root
+							then
+								for i = 1, #Correspondents do
+									local Part, Real = unpack(Correspondents[i])
+									if Part and Real and Part.Parent and Real.Parent then
+										Part.CFrame = Real.CFrame
+									elseif Part.Parent and not Real.Parent then
+										Part:Destroy()
+									end
+								end
+							end
+							end
+						)
+					FakeChar.Parent = Viewcam
+				end
+				Player.CharacterAdded:Connect(CharacterAdded)
+				if Player.Character then
+					spawn(
+						function()
+							CharacterAdded(Player.Character)
+						end
+					)
+				end
+			end
+			local PlayerAdded = Players.PlayerAdded:Connect(OnPlayerAdded)
+			for _, Player in pairs(Players:GetPlayers()) do
+				OnPlayerAdded(Player)
+			end
+			ViewPart.Size = Vector3.new()
+			if VRReady then
+				Viewport.Position = UDim2.new(.62, 0, .89, 0)
+				Viewport.Size = UDim2.new(.3, 0, .3, 0)
+				Viewport.AnchorPoint = Vector2.new(.5, 1)
+			else
+				Viewport.Size = UDim2.new(0.3, 0, 0.3, 0)
+			end
+			local RenderStepped =
+				RunService.RenderStepped:Connect(
+					function()
+						local Render = Camera.CFrame
+						local Scale = Camera.ViewportSize
+						if VRReady then
+						Render = Render * VRService:GetUserCFrame(Enum.UserCFrame.Head)
+					end
+						CameraPort = CFrame.new(Render.p + Vector3.new(5, 2, 0), Render.p)
+						Viewport.Camera.CFrame = CameraPort
+						ViewPart.CFrame = Render * CFrame.new(0, 0, -16)
+						ViewHUD.Size = UDim2.new(0, Scale.X - 6, 0, Scale.Y - 6)
+					end
+				)
+			--
+			local CharacterAdded
+			CharacterAdded =
+				Client.CharacterAdded:Connect(
+					function()
+						RenderStepped:Disconnect()
+						CharacterAdded:Disconnect()
+						PlayerAdded:Disconnect()
+						ViewHUD:Destroy()
+						ViewHUD = nil
+					end
+				)
+	
+			------------------------Part of modification------------------------
+			for i,v in pairs(character1:GetDescendants()) do
+				if v:IsA("Motor6D") then
+					v:Destroy()
+				end
+			end
+	
+			if character1.Humanoid.RigType == Enum.HumanoidRigType.R15 then
+				character1:BreakJoints()
+			end
+	
+			for i,v in pairs(reanimation:GetChildren()) do
+				if v:IsA("BasePart") then
+					v.Anchored = false
+				end
+			end
+	
+			game:GetService("RunService").Heartbeat:Connect(function()
+				for i,v in pairs(character1:GetChildren()) do
+					if v:IsA("BasePart") then
+						v.Velocity = Vector3.new(bodyVelocity[1], bodyVelocity[2], bodyVelocity[3])
+						if character1.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+							v.CFrame = reanimation:FindFirstChild(v.Name).CFrame
+						else
+							--Head
+							if character1:FindFirstChild("Head") then
+								character1.Head.CFrame = reanimation.Head.CFrame
+							end
+	
+							--Torso
+							if character1:FindFirstChild("UpperTorso") then
+								character1.UpperTorso.CFrame = reanimation.Torso.CFrame * CFrame.new(0, 0.185, 0)
+							end
+							if character1:FindFirstChild("LowerTorso") then
+								character1.LowerTorso.CFrame = reanimation.Torso.CFrame * CFrame.new(0, -0.8, 0)
+							end
+	
+							--HumanoidRootPart
+							if character1:FindFirstChild("HumanoidRootPart") then
+								character1.HumanoidRootPart.CFrame = cHRP.CFrame
+							end
+	
+							--Left Arm
+							if character1:FindFirstChild("LeftUpperArm") then
+								character1.LeftUpperArm.CFrame = reanimation["Left Arm"].CFrame * CFrame.new(0, 0.4, 0)
+							end
+							if character1:FindFirstChild("LeftLowerArm") then
+								character1.LeftLowerArm.CFrame = reanimation["Left Arm"].CFrame * CFrame.new(0, -0.19, 0)
+							end
+							if character1:FindFirstChild("LeftHand") then
+								character1.LeftHand.CFrame = reanimation["Left Arm"].CFrame * CFrame.new(0, -0.84, 0)
+							end
+	
+							--Right Arm
+							if character1:FindFirstChild("RightUpperArm") then
+								character1.RightUpperArm.CFrame = reanimation["Right Arm"].CFrame * CFrame.new(0, 0.4, 0)
+							end
+							if character1:FindFirstChild("RightLowerArm") then
+								character1.RightLowerArm.CFrame = reanimation["Right Arm"].CFrame * CFrame.new(0, -0.19, 0)
+							end
+							if character1:FindFirstChild("RightHand") then
+								character1.RightHand.CFrame = reanimation["Right Arm"].CFrame * CFrame.new(0, -0.84, 0)
+							end
+	
+							--Left Leg
+							if character1:FindFirstChild("LeftUpperLeg") then
+								character1.LeftUpperLeg.CFrame = reanimation["Left Leg"].CFrame * CFrame.new(0, 0.55, 0)
+							end
+							if character1:FindFirstChild("LeftLowerLeg") then
+								character1.LeftLowerLeg.CFrame = reanimation["Left Leg"].CFrame * CFrame.new(0, -0.19, 0)
+							end
+							if character1:FindFirstChild("LeftFoot") then
+								character1.LeftFoot.CFrame = reanimation["Left Leg"].CFrame * CFrame.new(0, -0.85, 0)
+							end
+	
+							--Right Leg
+							if character1:FindFirstChild("RightUpperLeg") then
+								character1.RightUpperLeg.CFrame = reanimation["Right Leg"].CFrame * CFrame.new(0, 0.55, 0)
+							end
+							if character1:FindFirstChild("RightLowerLeg") then
+								character1.RightLowerLeg.CFrame = reanimation["Right Leg"].CFrame * CFrame.new(0, -0.19, 0)
+							end
+							if character1:FindFirstChild("RightFoot") then
+								character1.RightFoot.CFrame = reanimation["Right Leg"].CFrame * CFrame.new(0, -0.85, 0)
+							end
+						end
+					end
+	
+					if v:IsA("Accessory") then
+						v.Handle.Velocity = Vector3.new(hatVelocity[1], hatVelocity[2], hatVelocity[3])
+						v.Handle.CFrame = reanimation:FindFirstChild(v.Name).Handle.CFrame
+					end
+				end
+			end)
+	
+			game:GetService("RunService").Stepped:Connect(function()
+				for i,v in pairs(reanimation:GetChildren()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+			end)
+	
+	
+			--------------------------------------------------------------------
+	
+			wait(9e9)
+		end
+		Script()
+		wait(2)
+		local Players = game:GetService("Players")
+		local lp = Players.LocalPlayer
+		local character = reanimation--lp.Character
+		local A0LL = Instance.new("Attachment", character["Left Leg"])
+		A0LL.Position = Vector3.new(0, 1, 0)
+		local A1LL = Instance.new("Attachment", character["Torso"])
+		A1LL.Position = Vector3.new(-0.5, -1, 0)
+		local socket1 = Instance.new("BallSocketConstraint", character["Left Leg"])
+		socket1.Attachment0 = A0LL
+		socket1.Attachment1 = A1LL
+		local A0RL = Instance.new("Attachment", character["Right Leg"])
+		A0RL.Position = Vector3.new(0, 1, 0)
+		local A1RL = Instance.new("Attachment", character["Torso"])
+		A1RL.Position = Vector3.new(0.5, -1, 0)
+		local socket2 = Instance.new("BallSocketConstraint", character["Right Leg"])
+		socket2.Attachment0 = A0RL
+		socket2.Attachment1 = A1RL
+		local A0H = Instance.new("Attachment", character["Head"])
+		A0H.Position = Vector3.new(0, -0.5, 0)
+		local A1H = Instance.new("Attachment", character["Torso"])
+		A1H.Position = Vector3.new(0, 1, 0)
+		local socket5 = Instance.new("BallSocketConstraint", character["Head"])
+		socket5.Attachment0 = A0H
+		socket5.Attachment1 = A1H
+		--loadstring(game:HttpGet("https://ghostbin.co/paste/krmyf/raw", true))()
+		-----------------------------------------------------------
+		wait(9e9)
+	end)
+	
+end
+coroutine.wrap(ZYCS_fake_script)()
+local function JISK_fake_script() -- loginbut.loginscript 
+	local script = Instance.new('LocalScript', loginbut)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.usertext.Text == "sexking" and script.Parent.Parent.passtext.Text == "niggerpoop666" then
+			script.Parent.Parent.Visible = false
+			end
+	end)
+end
+coroutine.wrap(JISK_fake_script)()
